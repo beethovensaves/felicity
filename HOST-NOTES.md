@@ -44,6 +44,9 @@ The optional Felicity rule has no path filter and therefore applies broadly.
 The Claude Code ZIP installs both skills. Its installer adds the always-on rule only when run with
 `--with-rule`.
 
+Invoke the skills explicitly as `/felicity-review` and `/felicity-write`. The `$` prefix used by
+Codex is not Claude Code's invocation syntax.
+
 This release does not use Claude-only frontmatter such as `disable-model-invocation` or
 `argument-hint`. Whether a skill matches implicitly is a host or user setting, not a second behavior
 hidden in the portable skill.

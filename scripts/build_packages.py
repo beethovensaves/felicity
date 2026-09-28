@@ -20,6 +20,7 @@ def package_readme(host: str) -> bytes:
     product = "Codex" if host == "codex" else "Claude Code"
     location = "~/.agents/skills/" if host == "codex" else "~/.claude/skills/"
     project = ".agents/skills/" if host == "codex" else ".claude/skills/"
+    invocation = "$felicity-review" if host == "codex" else "/felicity-review"
     rule = (
         "\nFor the optional always-on Claude rule, add `--with-rule`. It installs to "
         "`~/.claude/rules/` or the project's `.claude/rules/`.\n"
@@ -38,6 +39,7 @@ def package_readme(host: str) -> bytes:
         + rule
         + "\nThe extractor reads DOCX, PPTX, RTF, DOC, and text-layer PDF files. PDF needs `pdftotext`;\n"
         "RTF and legacy DOC need macOS `textutil`. It does not edit those formats.\n"
+        f"\nTo try the review skill, ask: `{invocation} Review this text: ...`\n"
     ).encode("utf-8")
 
 

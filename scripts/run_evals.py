@@ -65,7 +65,7 @@ def command_for(host: str, workspace: Path, prompt: str, final_path: Path) -> li
         ]
     return [
         "claude", "-p", "--no-session-persistence", "--output-format", "text",
-        "--tools", "Read", "--setting-sources", "project", prompt,
+        "--tools", "Read,Skill", "--setting-sources", "project", prompt,
     ]
 
 

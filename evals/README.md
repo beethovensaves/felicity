@@ -5,6 +5,9 @@ claims, shared context, request force, ordinary review restraint, voice preserva
 word senses, and formulaic writing. Review cases must keep Felicity's normal consequential finding
 threshold. Most cases invoke a skill explicitly; routing cases omit the skill name.
 
+See [selected observed runs](RESULTS.md) for complete final answers and manual grades from a small
+Codex sample. The case catalog is larger than the published sample.
+
 List or select cases without making a model call:
 
 ```bash

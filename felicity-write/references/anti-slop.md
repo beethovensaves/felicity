@@ -30,6 +30,8 @@ context, tension, or character.
 
 Replace an inflated line with a fact already in the source, narrow the claim, or remove it. Never
 invent a metric, example, motive, source, or causal link to make the sentence sound concrete.
+When a sentence consists only of vague praise, a fluent synonym is not a useful rewrite. State what
+concrete function or result the writer needs to supply.
 
 ## Mechanical shape and closure
 

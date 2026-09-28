@@ -1,10 +1,8 @@
 # Install Felicity
 
-Install both skills from a host package, or copy them from the source tree. The always-on rule is
-optional. Download the [Codex](https://github.com/beethovensaves/felicity/releases/latest/download/felicity-codex.zip)
-or [Claude Code](https://github.com/beethovensaves/felicity/releases/latest/download/felicity-claude-code.zip)
-ZIP from the latest release. Source-copy commands below assume you are in the directory containing
-the `felicity/` checkout.
+Install both skills from a release ZIP, or copy them from a source checkout. The optional Claude Code
+rule is installed only when requested. Commands in the release section use downloaded files; source
+commands use a `felicity/` checkout.
 
 ## Prerequisites
 
@@ -20,30 +18,57 @@ Plain text needs no additional software. Optional document support uses:
 On macOS, install Poppler with `brew install poppler`. On Debian or Ubuntu, use
 `apt-get install poppler-utils`.
 
-## Host Packages
+## Install from a release
 
-To build the ZIPs yourself, enter the `felicity/` source directory and run:
+Download the [Codex ZIP](https://github.com/beethovensaves/felicity/releases/latest/download/felicity-codex.zip),
+[Claude Code ZIP](https://github.com/beethovensaves/felicity/releases/latest/download/felicity-claude-code.zip),
+and [SHA256SUMS](https://github.com/beethovensaves/felicity/releases/latest/download/SHA256SUMS)
+to the same directory. Check both downloaded archives there. On macOS:
 
 ```bash
-python3 scripts/refresh_manifest.py
+shasum -a 256 -c SHA256SUMS
+```
+
+On Linux:
+
+```bash
+sha256sum -c SHA256SUMS
+```
+
+Then extract and install the package for your host from that directory:
+
+```bash
+# Codex
+unzip felicity-codex.zip
+python3 felicity-codex/install.py --scope user
+
+# Claude Code
+unzip felicity-claude-code.zip
+python3 felicity-claude-code/install.py --scope user
+```
+
+Run only the two commands for the host you use. User scope installs the skills in `~/.agents/skills/`
+for Codex or `~/.claude/skills/` for Claude Code. For one project, use
+`--scope project --project /path/to/project`. Add `--replace` when updating; the installer backs up
+the Felicity paths it replaces. It also checks each file against the ZIP's `checksums.sha256` before
+writing to the destination.
+
+For Claude Code, `--with-rule` also installs `felicity.md`. User scope puts this unfiltered rule in
+`~/.claude/rules/`, where it applies across Claude Code projects. Project scope puts it in the
+chosen project's `.claude/rules/`, where it applies within that project.
+
+## Build from source
+
+From the `felicity/` checkout, validate the source and build both ZIPs:
+
+```bash
+python3 scripts/check_package.py
+shasum -a 256 -c MANIFEST.sha256
 python3 scripts/build_packages.py
 ```
 
-For Codex, run these from the `felicity/` source directory:
-
-```bash
-unzip dist/felicity-codex.zip -d /tmp/felicity-install
-cd /tmp/felicity-install/felicity-codex
-python3 install.py --scope user
-```
-
-For Claude Code, extract `dist/felicity-claude-code.zip` and run the same command inside its
-`felicity-claude-code/` directory. Use `--scope project --project /path/to/project` for a project
-installation. Add `--replace` when updating an existing copy; the installer backs up only the
-specific Felicity paths it replaces. Claude Code's optional rule requires `--with-rule`.
-
-The package installer checks every payload file against `checksums.sha256` before it writes to the
-destination. It does not install anything during the build.
+`MANIFEST.sha256` verifies the source checkout. It is not included in either release ZIP. The build
+does not install anything. The manual copy commands below also run from the `felicity/` checkout.
 
 ## Codex
 
@@ -51,10 +76,16 @@ Personal installation:
 
 ```bash
 mkdir -p "$HOME/.agents/skills"
-cp -R felicity/felicity-review felicity/felicity-write "$HOME/.agents/skills/"
+cp -R felicity-review felicity-write "$HOME/.agents/skills/"
 ```
 
-For a project installation, copy the two folders into the project's `.agents/skills/` directory.
+For a project installation from this checkout:
+
+```bash
+felicity_project=/path/to/project
+mkdir -p "$felicity_project/.agents/skills"
+cp -R felicity-review felicity-write "$felicity_project/.agents/skills/"
+```
 
 The `agents/openai.yaml` files supply Codex display metadata. The runtime instructions remain in
 `SKILL.md`.
@@ -65,26 +96,26 @@ Personal installation:
 
 ```bash
 mkdir -p ~/.claude/skills
-cp -R felicity/felicity-review ~/.claude/skills/
-cp -R felicity/felicity-write ~/.claude/skills/
+cp -R felicity-review ~/.claude/skills/
+cp -R felicity-write ~/.claude/skills/
 ```
 
 Project installation:
 
 ```bash
-mkdir -p .claude/skills
-cp -R /path/to/felicity/felicity-review .claude/skills/
-cp -R /path/to/felicity/felicity-write .claude/skills/
+felicity_project=/path/to/project
+mkdir -p "$felicity_project/.claude/skills"
+cp -R felicity-review felicity-write "$felicity_project/.claude/skills/"
 ```
 
 To enable the optional rule:
 
 ```bash
 mkdir -p ~/.claude/rules
-cp felicity/rule/felicity.md ~/.claude/rules/
+cp rule/felicity.md ~/.claude/rules/
 ```
 
-Use `.claude/rules/` instead for a project-scoped rule.
+For a project-scoped rule, copy `rule/felicity.md` to that project's `.claude/rules/` directory.
 
 ## Kiro
 
@@ -117,7 +148,7 @@ replace the two exact Felicity directories:
 
 ```bash
 rm -rf ~/.claude/skills/felicity-review ~/.claude/skills/felicity-write
-cp -R felicity/felicity-review felicity/felicity-write ~/.claude/skills/
+cp -R felicity-review felicity-write ~/.claude/skills/
 ```
 
 Use the equivalent skills root for Codex or Kiro. The manual command removes only the two named
@@ -125,7 +156,14 @@ Felicity install directories.
 
 ## Verify
 
-Confirm that each installed skill contains its own files:
+For a Codex user installation, confirm that both skills contain their references:
+
+```bash
+test -r ~/.agents/skills/felicity-review/references/review-standard.md
+test -r ~/.agents/skills/felicity-write/references/writing-standard.md
+```
+
+For a Claude Code user installation:
 
 ```bash
 test -r ~/.claude/skills/felicity-review/references/review-standard.md
@@ -133,24 +171,26 @@ test -r ~/.claude/skills/felicity-write/references/writing-standard.md
 python3 ~/.claude/skills/felicity-review/scripts/extract_text.py --help
 ```
 
-To verify an extracted release before installation, run these from the `felicity/` directory:
-
-```bash
-python3 scripts/check_package.py
-shasum -a 256 -c MANIFEST.sha256
-```
-
-Then ask the host to use each skill:
+Then ask Codex to use each skill:
 
 ```text
 Use $felicity-review to review: "Latency rose after the cache change, so remove Redis."
 Use $felicity-write to rewrite: "We leverage a robust solution to unlock seamless workflows."
 ```
 
-The first should question the unsupported conclusion. The second should remove generic claims
-without inventing a specific benefit.
+In Claude Code, use its slash syntax:
 
-## Use
+```text
+/felicity-review Review: "Latency rose after the cache change, so remove Redis."
+/felicity-write Rewrite: "We leverage a robust solution to unlock seamless workflows."
+```
+
+The first should question the unsupported conclusion. The second should ask for a concrete product
+fact if the sentence offers only generic praise.
+
+## More requests
+
+In Codex:
 
 ```text
 Use $felicity-review to review path/to/deck.pptx.
@@ -158,5 +198,8 @@ Use $felicity-review to critique this system prompt.
 Use $felicity-write to revise docs/design.md in place.
 Use $felicity-write to draft a short project update for leadership.
 ```
+
+In Claude Code, replace `$felicity-review` and `$felicity-write` with `/felicity-review` and
+`/felicity-write` at the start of the corresponding request.
 
 Review never edits. Write edits only when the request asks for file changes.

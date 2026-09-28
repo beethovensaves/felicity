@@ -1,0 +1,3 @@
+One major finding: the stated evidence does not justify removing Redis.
+
+- **Major: Unsupported causal conclusion** — “so we should remove Redis.” Latency rising after the cache change establishes timing, but does not isolate Redis as the cause or show that removal would help. This could lead the team to make an unjustified architecture change. Separate the observation from the recommendation, and either supply evidence supporting removal or recommend isolating the cause before deciding.

@@ -74,6 +74,8 @@ For a rewrite:
 - retain intentional voice and warmth;
 - resolve ambiguity only when the intended meaning is supported by context;
 - flag a source contradiction instead of silently choosing one version.
+- when the source offers only generic praise, explain what concrete fact is needed for a useful
+  rewrite; do not replace it with synonymous praise or invent a benefit.
 
 For new text:
 

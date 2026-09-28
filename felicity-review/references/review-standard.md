@@ -152,7 +152,7 @@ Check whether the text sounds specific to its author, audience, and subject. Fla
 - praise without evidence: "powerful," "world-class," "game-changing";
 - ceremonial openings: "In today's fast-paced world," "Great question";
 - stock contrasts: "not just X, but Y";
-- abstract AI-favored verbs where a plain verb is more exact: "delve," "leverage," "unlock";
+- abstract verbs where a plain verb is more exact: "delve," "leverage," "unlock";
 - repeated transition words, dramatic punctuation, padded triads, or section-marker emoji;
 - self-certification: "every claim is verified";
 - revision residue that an external reader cannot use.

@@ -1,6 +1,6 @@
 # Felicity writing rule
 
-Apply this rule when drafting or revising prose for a person or a language model.
+Apply this rule when drafting or revising prose for a reader.
 
 ## Priorities
 

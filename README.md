@@ -20,9 +20,10 @@ alone is not a finding. Write ends with a concentrated check for stock openings,
 mechanical contrasts, and other formulaic moves. It changes them when they weaken the text, while
 keeping useful idiom and technical language.
 
-For example, a review of “Latency rose after the cache change, so we should remove Redis” should
-question the causal leap. A rewrite of “We leverage a robust solution to unlock seamless workflows”
-should remove unsupported praise without inventing a product benefit.
+In an [observed Codex run](evals/RESULTS.md), a review of “Latency rose after the cache change, so
+we should remove Redis” identified the unsupported causal leap and recommended isolating the cause
+before deciding. A separate run found no issue with an update that clearly limited completion to
+staging. The [complete answers and manual grades](evals/RESULTS.md) are available in the repository.
 
 ## Install
 
@@ -32,29 +33,41 @@ Download the package for your host from the [latest release](https://github.com/
 - [Claude Code ZIP](https://github.com/beethovensaves/felicity/releases/latest/download/felicity-claude-code.zip)
 - [SHA256 checksums](https://github.com/beethovensaves/felicity/releases/latest/download/SHA256SUMS)
 
-If you download all three files together, run `shasum -a 256 -c SHA256SUMS` to check the archives.
-Extract one ZIP and run its installer with Python 3:
+If you download all three files together, check the archives with `shasum -a 256 -c SHA256SUMS`
+on macOS or `sha256sum -c SHA256SUMS` on Linux.
+Extract the ZIP for your host, then run its installer with Python 3:
 
 ```bash
-# Inside the directory where you extracted the Codex ZIP:
+# Codex
+unzip felicity-codex.zip
 python3 felicity-codex/install.py --scope user
 
-# Or, for the Claude Code ZIP:
+# Claude Code
+unzip felicity-claude-code.zip
 python3 felicity-claude-code/install.py --scope user
 ```
 
 For a project installation, use `--scope project --project /path/to/project`. Add `--replace` to
 update an existing Felicity installation; the installer backs up the Felicity paths it replaces.
-The Claude Code package also supports `--with-rule` for an optional rule that applies to prose work
-beyond explicit skill calls. The installer checks every packaged file against its checksum list
-before writing to the destination. See [INSTALL.md](INSTALL.md) for source installs, supported hosts,
-document dependencies, and verification commands.
+The Claude Code package also supports `--with-rule`. With user scope, it installs an unfiltered rule
+in `~/.claude/rules/` that applies across Claude Code projects; with project scope, the rule applies
+within that project. The installer checks every packaged file against its checksum list before
+writing to the destination. See [INSTALL.md](INSTALL.md) for download, source, and document details.
 
 ## Use
+
+In Codex:
 
 ```text
 Use $felicity-review to review this status update for consequential problems.
 Use $felicity-write to revise README.md in place while preserving its claims and voice.
+```
+
+In Claude Code:
+
+```text
+/felicity-review Review this status update for consequential problems.
+/felicity-write Revise README.md in place while preserving its claims and voice.
 ```
 
 The skills can read plain text, DOCX, PPTX, RTF, legacy DOC, and text-layer PDFs. DOCX and PPTX
@@ -73,9 +86,9 @@ python3 scripts/run_evals.py --list
 ```
 
 The [behavior cases](evals/README.md) cover claim drift, speech-act force, shared context, review
-restraint, voice preservation, technical senses, and formulaic writing. They provide a way to
-compare live Codex or Claude Code outputs; no live-model scores are published with this release.
-Package validation checks structure and checksums, not writing quality.
+restraint, voice preservation, technical senses, and formulaic writing. The [published sample](evals/RESULTS.md)
+contains three manually graded Codex runs. It does not establish overall quality or Claude Code
+behavior. Package validation checks structure and checksums, not writing quality.
 
 The skills and build scripts are in this repository. [Host notes](HOST-NOTES.md) explain discovery
 paths and optional rules. Felicity is released under the [MIT License](LICENSE).
