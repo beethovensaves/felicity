@@ -1,0 +1,4 @@
+interface:
+  display_name: "Felicity Review"
+  short_description: "Find consequential problems in prose"
+  default_prompt: "Use $felicity-review to review this text and report only actionable findings."

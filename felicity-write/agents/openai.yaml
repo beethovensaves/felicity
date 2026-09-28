@@ -1,0 +1,4 @@
+interface:
+  display_name: "Felicity Write"
+  short_description: "Draft and revise clear, natural prose"
+  default_prompt: "Use $felicity-write to rewrite this text in a clear, natural voice."

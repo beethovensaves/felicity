@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "review-causal-leap",
+      "skill": "felicity-review",
+      "prompt": "Review this internal update for consequential problems:\n\nLatency rose after the cache change, so we should remove Redis.",
+      "protected_literals": [],
+      "criteria": [
+        "Flags the unsupported causal leap from sequence to Redis as the cause.",
+        "Gives a concrete fix that narrows the claim or calls for isolation before removal.",
+        "Does not assert that Redis is innocent or that the cache change caused the latency."
+      ]
+    },
+    {
+      "id": "review-staging-scope",
+      "skill": "felicity-review",
+      "prompt": "Review this concise internal project update:\n\nThe migration is complete in staging. The load test is pending. The fallback path remains enabled.",
+      "protected_literals": [],
+      "criteria": [
+        "Does not turn completion in staging into a production-readiness claim.",
+        "Does not demand a rollback plan, customer impact statement, or other adjacent details without a concrete reader consequence.",
+        "Reports no material finding unless it identifies a specific, defensible misread."
+      ]
+    },
+    {
+      "id": "review-shared-context",
+      "skill": "felicity-review",
+      "prompt": "Review this note to a small team that already knows the project and deadline:\n\nI can send the revised brief on Tuesday. The threshold we agreed on still applies.",
+      "protected_literals": [],
+      "criteria": [
+        "Treats Tuesday and the agreed threshold as shared context.",
+        "Does not invent a need for an exact date or repeat the threshold merely because an outsider lacks context.",
+        "Keeps the ordinary consequential finding threshold."
+      ]
+    },
+    {
+      "id": "review-force",
+      "skill": "felicity-review",
+      "prompt": "Review this message. The writer needs the recipient to send the file by Tuesday, and the deadline is firm:\n\nCould you maybe send the file sometime next week?",
+      "protected_literals": [],
+      "criteria": [
+        "Identifies the mismatch between a firm Tuesday requirement and the optional, vague request.",
+        "Explains the likely wrong action or delay.",
+        "Offers a direct request that preserves the firm deadline without inventing a reason."
+      ]
+    },
+    {
+      "id": "review-benign-voice",
+      "skill": "felicity-review",
+      "prompt": "Review this short thank-you note to a colleague:\n\nThanks for sticking with me through the messy bits. I really appreciated it.",
+      "protected_literals": [],
+      "criteria": [
+        "Does not manufacture a finding from an informal phrase or ordinary warmth.",
+        "Does not rewrite the note or give unsolicited line edits.",
+        "Says plainly when there is no consequential issue."
+      ]
+    },
+    {
+      "id": "write-empty-praise",
+      "skill": "felicity-write",
+      "prompt": "De-slop this product sentence. Do not add facts:\n\nWe leverage a robust solution to unlock seamless workflows.",
+      "protected_literals": [],
+      "criteria": [
+        "Removes or plainly narrows the generic praise.",
+        "Does not invent a product function, metric, customer benefit, or placeholder.",
+        "Returns a usable sentence or explains that specific content is needed."
+      ]
+    },
+    {
+      "id": "write-technical-sense",
+      "skill": "felicity-write",
+      "prompt": "De-slop this technical note while preserving its meaning:\n\nThe controller is robust to packet loss. It retransmits after 200 ms.",
+      "protected_literals": ["200 ms"],
+      "criteria": [
+        "Keeps the technical meaning of robust to packet loss.",
+        "Preserves the 200 ms retransmission detail.",
+        "Avoids changing a sound technical sentence merely to remove a listed word."
+      ]
+    },
+    {
+      "id": "write-personal-cadence",
+      "skill": "felicity-write",
+      "prompt": "De-slop this personal post, but keep the writer's humor and rhythm:\n\nI thought the fix would take an hour. Ha. Three days later, it finally worked.",
+      "protected_literals": ["Three days"],
+      "criteria": [
+        "Preserves the contrast between an hour and three days.",
+        "Keeps the dry humor or a comparably recognizable voice.",
+        "Does not mechanically eliminate the intentional fragment or make the passage sound corporate."
+      ]
+    },
+    {
+      "id": "write-unsupported-authority",
+      "skill": "felicity-write",
+      "prompt": "Rewrite this line without adding evidence:\n\nStudies show our onboarding is best in class.",
+      "protected_literals": [],
+      "criteria": [
+        "Does not invent a study, source, metric, or ranking.",
+        "Removes or flags the unsupported attribution and superlative.",
+        "Does not silently turn the source into a stronger factual claim."
+      ]
+    },
+    {
+      "id": "write-keep-measurement",
+      "skill": "felicity-write",
+      "prompt": "De-slop this sentence without changing its factual claim:\n\nHere's the thing: the pilot reduced median build time from 12 to 9 minutes.",
+      "protected_literals": ["12", "9", "median build time", "pilot"],
+      "criteria": [
+        "Removes the staged opener while preserving the pilot and measurement.",
+        "Does not add an explanation for the reduction or a claim about future performance.",
+        "Keeps the result easy to read."
+      ]
+    },
+    {
+      "id": "write-source-contradiction",
+      "skill": "felicity-write",
+      "prompt": "Tighten this paragraph without changing the facts:\n\nQ2 revenue was $4 million. Later in the same report, Q2 revenue was $5 million.",
+      "protected_literals": [],
+      "criteria": [
+        "Flags the conflicting revenue figures instead of choosing one.",
+        "Does not average them or invent an explanation.",
+        "Makes clear what needs resolution before a final rewrite."
+      ]
+    },
+    {
+      "id": "write-false-drama",
+      "skill": "felicity-write",
+      "prompt": "Remove formulaic writing from this project note while preserving the concrete fact:\n\nThe secret: a separate agent grades each answer. This changes everything. The future isn't coming. It's already here.",
+      "protected_literals": ["separate agent", "grades each answer"],
+      "criteria": [
+        "Keeps the separate-agent grading fact.",
+        "Removes the dramatic colon setup and unsupported grand claims.",
+        "Ends on a concrete point rather than another invented aphorism."
+      ]
+    },
+    {
+      "id": "route-review-no-rewrite",
+      "skill": "felicity-review",
+      "invocation": "implicit",
+      "prompt": "Critique this customer-facing line and tell me what is wrong without rewriting it:\n\nAll customers will see the new dashboard tomorrow.",
+      "protected_literals": [],
+      "criteria": [
+        "Responds as a review with findings or a clear no-finding verdict, not a replacement draft.",
+        "Does not declare the rollout claim false without external evidence.",
+        "Identifies the verification limit if the claim is load-bearing for this reader."
+      ]
+    },
+    {
+      "id": "route-write-finished-text",
+      "skill": "felicity-write",
+      "invocation": "implicit",
+      "prompt": "Rewrite this line to sound natural, keeping the stated fact:\n\nThe team successfully completed the pilot on Friday, showcasing its dedication to excellence.",
+      "protected_literals": ["pilot", "Friday"],
+      "criteria": [
+        "Returns finished replacement text rather than a findings report.",
+        "Preserves completion of the pilot on Friday.",
+        "Removes the unsupported dedication claim without inventing a benefit."
+      ]
+    }
+  ]
+}
