@@ -1,0 +1,81 @@
+Examine what each utterance conveys in context. For each numbered item, choose the best option. Return only the 1-based option number for each item, in order, in the required JSON answers array. Answer the questions; do not report review findings.
+
+Item 1:
+Context: X wants to know what sorts of books Y likes to read.
+Question: Do you read biographies?
+Response: I read biographies .
+Options:
+1. Direct answer
+2. Indirect answer
+
+Item 2:
+Context: X and Y are childhood neighbours who unexpectedly run into each other at a cafe.
+Question: Does you family live in the area?
+Response: I does live in the area .
+Options:
+1. Direct answer
+2. Indirect answer
+
+Item 3:
+Context: X wants to know about Y's food preferences.
+Question: Are you a vegetarian or vegan?
+Response: I am a vegetarian or vegan .
+Options:
+1. Direct answer
+2. Indirect answer
+
+Item 4:
+Context: Y has just moved into a neighbourhood and meets his/her new neighbour X.
+Question: Do you like this neighbourhood?
+Response: So far I do
+Options:
+1. Direct answer
+2. Indirect answer
+
+Item 5:
+Context: X wants to know about Y's music preferences.
+Question: Would you like to see the gig at the town hall next week?
+Response: I would like to see the gig at the town hall next week .
+Options:
+1. Direct answer
+2. Indirect answer
+
+Item 6:
+Context: X and Y are colleagues who are leaving work on a Friday at the same time.
+Question: did you park in the parking garage?
+Response: I did park in the parking garage .
+Options:
+1. Direct answer
+2. Indirect answer
+
+Item 7:
+Context: X and Y are childhood neighbours who unexpectedly run into each other at a cafe.
+Question: Do your folks still live it the same place?
+Response: They moved a few years ago.
+Options:
+1. Direct answer
+2. Indirect answer
+
+Item 8:
+Context: Y has just told X that he/she is considering switching his/her job.
+Question: Is your job stressful?
+Response: Not really, but it's action-packed.
+Options:
+1. Direct answer
+2. Indirect answer
+
+Item 9:
+Context: X and Y are childhood neighbours who unexpectedly run into each other at a cafe.
+Question: Do you work around here?
+Response: I do work close by at the store.
+Options:
+1. Direct answer
+2. Indirect answer
+
+Item 10:
+Context: X wants to know what sorts of books Y likes to read.
+Question: Do like readers digest?
+Response: It's not something I read regularly.
+Options:
+1. Direct answer
+2. Indirect answer

@@ -1,0 +1,71 @@
+Use $felicity-review. Read .agents/skills/felicity-review/SKILL.md and .agents/skills/felicity-review/references/review-standard.md before answering. Examine what each utterance conveys in context. For each numbered item, choose the best option. Return only the 1-based option number for each item, in order, in the required JSON answers array. Answer the questions; do not report review findings.
+
+Item 1:
+Speaker_1: the imminent journey loomed like the sun on the horizon
+Speaker_2: The journey is a source of happiness.
+Options:
+1. Agrees
+2. Disagrees
+
+Item 2:
+Speaker_1: His thought process was as straight forward as a yard stick
+Speaker_2: His thought process is clear.
+Options:
+1. Agrees
+2. Disagrees
+
+Item 3:
+Speaker_1: The order of the students was as random as a checker board
+Speaker_2: it is orderly
+Options:
+1. Agrees
+2. Disagrees
+
+Item 4:
+Speaker_1: This movie was as interesting as watching paint dry
+Speaker_2: the movie was captivating.
+Options:
+1. Agrees
+2. Disagrees
+
+Item 5:
+Speaker_1: That woman is as tall as a person on stilts
+Speaker_2: That woman is very short
+Options:
+1. Agrees
+2. Disagrees
+
+Item 6:
+Speaker_1: Life is like a flying bird.
+Speaker_2: We should live a carefree life to stay stress free.
+Options:
+1. Agrees
+2. Disagrees
+
+Item 7:
+Speaker_1: The building's décor was like that of A building that was bombed in World War II
+Speaker_2: The building's décor is terrible
+Options:
+1. Agrees
+2. Disagrees
+
+Item 8:
+Speaker_1: The woman's laugh is as loud as a yawn
+Speaker_2: The woman's laugh is very loud.
+Options:
+1. Agrees
+2. Disagrees
+
+Item 9:
+Speaker_1: This drink has the flavor of a million sugar cubes stroking my brain
+Speaker_2: This drink tastes good
+Options:
+1. Agrees
+2. Disagrees
+
+Item 10:
+Speaker_1: he was as big as an mouse
+Speaker_2: He was very large
+Options:
+1. Agrees
+2. Disagrees

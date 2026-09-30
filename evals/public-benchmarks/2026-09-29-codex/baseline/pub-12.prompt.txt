@@ -1,0 +1,125 @@
+Examine what each utterance conveys in context. For each numbered item, choose the best option. Return only the 1-based option number for each item, in order, in the required JSON answers array. Answer the questions; do not report review findings.
+
+Item 1:
+Conversation:
+A: Nice to meet you .
+Assumption: It's been a pleasure meeting you.
+Options:
+1. Valid
+2. Invalid
+
+Item 2:
+Conversation:
+A: Have you had a chance to look over the contract ?
+B: Yes . I've read it carefully .
+A: And do you have any questions ?
+B: No . But the contract stipulates that I will teach 22 hours a week.Will you have thatmany classes for me right away ?
+A:  No , probably not . For the first two weeks you may teach 10 or 15 hours . 
+B:  But my salary will be 1100 dollars a month.Will you pay me that much for the first month ? Because , I mean , I won't be working so many hours . 
+A:  I understand . That's why I didn't write the date on the contract.For the first two weeks , we will pay you according to the hours you teach.When you have 22 hours of classes , then the contract will take effect.Is that alright with you ? 
+B:  Oh , so I don't sign the contract today . Is that right ? 
+A:  I don't want you to misunderstand , Miss Briggs.We are very serious about hiring you . We want you to teach for us.We usually do contracts this way because it is more convenient . 
+B: I can accept that .
+Assumption: There was a prior statement made by the speaker.
+Options:
+1. Valid
+2. Invalid
+
+Item 3:
+Conversation:
+A: Hello , I bought the pendant in your shop , just before . 
+B: Yes.Thank you very much .
+A:  Now I come back to the hotel and try to show it to my friend , the pendant is broken , I'm afraid .
+Assumption: Friend has broken the pendant
+Options:
+1. Valid
+2. Invalid
+
+Item 4:
+Conversation:
+A: Good morning , Japan Airline domestic reservations . Can I help you ? 
+B: Yes . I Would like make a reservation to Huston for tomorrow .
+A:  The flight to Huston takes off daily every two hours from 6:00 to 11:00 pm . So you don't need a reservation . Seats are available on a ' first come , first served ' basis .
+Assumption: The person has to start early to have the first seat at the window..
+Options:
+1. Valid
+2. Invalid
+
+Item 5:
+Conversation:
+A: Hello ! How do I restock my minibar ?
+B:  You've drunk everything , sir ? 
+A: I finished it all .
+B:  Do you want the whole minibar , or just certain items ? 
+A: Send me up three bottles each of Perrier and Jim Beam .
+B:  That's three Jim Beams and three Perriers . Anything else , sir ? 
+A:  The apples in my room were delicious . Bring me a few more , please . 
+B: Okay . Are you sure there isn't anything else ?
+A:  You know , some grape juice would be really nice , too .
+Assumption: A insists on change of the order.
+Options:
+1. Valid
+2. Invalid
+
+Item 6:
+Conversation:
+A: Good morning , sir . Here is the hotel's sauna room . What can I do for you ? 
+B: Yes . This is the first time I've come here . Could you please tell me something about it ?
+A:  Sure Those who have heart disease or high blood pressure are not allowed to take sauna , for their sake . 
+B: Thank you for telling me about this . What should I do here ?
+A:  First , change your shoes to slippers . Then walk up to the changing room to get prepared for a shower .
+Assumption: The listener need to undress.
+Options:
+1. Valid
+2. Invalid
+
+Item 7:
+Conversation:
+A: Ann , stop bugging Jess and help me order something new . Lattes are so passe these days .
+Assumption: The speaker fashion and food. The food is stale.The food is tasteless.
+Options:
+1. Valid
+2. Invalid
+
+Item 8:
+Conversation:
+A: Sir , I am very glad to tell that we have successfully registered the trademark for our new product . It is the time to think of some effective promoting strategies . We are beginning to get more attention from overseas . 
+B:  Well done , Fred . Do you know something useful for our promotion for our I-series ? 
+A:  OK , Let me see . I suppose we must strengthen our promotion , because our brand is still new to some consumers . Maybe we should start our advertising program with our local and overseas distributors simultaneously , because they stand on a better position for selecting the best ways to advertise in market places . Besides , the advertisement fund can encourage them to spend more attention on advertising our products . 
+B: That is a good idea to start with . I also think the mass media is also a good approach for advertising .
+Assumption: B has plans to promote across the world.
+Options:
+1. Valid
+2. Invalid
+
+Item 9:
+Conversation:
+A: It's such a nice day outside . Let ’ s take a walk into town and do some window-shopping .
+B: You know I hate shopping more than anything else in this world .
+A:  I know . But we could get some exercise in , and we could get some errands run , too . Window-shopping won ’ t cost you anything . 
+B: What kind of errands do we need to run ?
+A:  Well , we could go to the newsagent's to pick up the Sunday paper , go to the butcher's to pick up a chicken for a roast dinner , and to the chemist's to pick up your prescription from the doctor . 
+B: I'll only go if we can stop at the office-license to pick up something to drink for tonight .
+A:  Fine , we'll do that on the way home , so we don ’ t have to carry it the whole time . 
+B:  Sounds good . You have to promise not go into any of the stores in the mall though . I know how you like to try things on in the fitting rooms , especially if the stores have special offers . 
+A: I promise . We're only going for a walk to get some exercise and to get some things done that we haven ’ t had time for .
+B:  Ok , let's go then ! 
+A: Do you have any money ?
+B: For what ?
+A:  For our errands , and maybe a little extra for something from a vendor on the street .
+Assumption: The speaker has multiple things to buy.
+Options:
+1. Valid
+2. Invalid
+
+Item 10:
+Conversation:
+A: do you have s second ?
+B: sure . What do you want ?
+A: I want to tell you I've put in my notice .
+B: really ? Why ?
+A:  I've been thinking about this for several months , well before the Spring Festival holidays .
+Assumption: A has got better opportunities; A was on a vacation trip.
+Options:
+1. Valid
+2. Invalid

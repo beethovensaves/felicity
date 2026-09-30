@@ -1,0 +1,91 @@
+Examine what each utterance conveys in context. For each numbered item, choose the best option. Return only the 1-based option number for each item, in order, in the required JSON answers array. Answer the questions; do not report review findings.
+
+Item 1:
+Context: The classroom was filled with eager minds
+Question: what does "classroom" refer to?
+Options:
+1. room
+2. faculty
+3. Laptop
+4. srudents
+
+Item 2:
+Context: She said,"Tell your man to watch his mouth."
+Question: What does "mouth" mean:?
+Options:
+1. Way of speaking
+2. Taste for food
+3. A location
+4. None
+
+Item 3:
+Context: "Please put your thumb on red and fingers on the blue. "
+Question: What does "red" refer to :?
+Options:
+1. Dust
+2. Red spot
+3. Dirt
+4. Flower
+
+Item 4:
+Context: The village all declared how much he knew - Gold Smith
+Question: What does " the village" refer to?
+Options:
+1. the place
+2. villlage
+3. country
+4. villagers/people
+
+Item 5:
+Context: Keep your nose out of  it 
+Question: What does " nose" refer to ?
+Options:
+1. intrusion
+2. interest
+3. attention
+4. all of the above
+
+Item 6:
+Context: The kettle is boiling
+Question: what does "the kettle" refer  to?
+Options:
+1. container
+2. device
+3. lid
+4. water
+
+Item 7:
+Context: She is attracted to blue jacket 
+Question: What does" blue jacket" refer to?
+Options:
+1. Colour
+2. Jacket
+3. Sailor
+4. Sea
+
+Item 8:
+Context: He rode on an ostrich wing's 
+Question: What does " ostrich wings" refer to ?
+Options:
+1. The intensity
+2. The speed
+3. The stamina
+4. The power
+
+Item 9:
+Context: She's always chasing the taste of victory.
+Question: What does "taste of victory" mean:?
+Options:
+1. The literal taste of winning
+2. A satisfaction and triumph associated with winning
+3. A type of victory celebration
+4. A type of competition
+
+Item 10:
+Context: The press praised the actor's outstanding performance.
+Question: What does "press" mean:?
+Options:
+1. The media and journalists
+2. A book publishing company
+3. A type of camera
+4. A printing machine

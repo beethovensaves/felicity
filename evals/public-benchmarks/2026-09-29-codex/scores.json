@@ -1,0 +1,352 @@
+{
+  "editeval": {
+    "clarity": {
+      "baseline": {
+        "status": "captured",
+        "sari": 21.121942415981213,
+        "total": 10,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "sari": 24.947188393753677,
+        "total": 10,
+        "skill_read": true
+      }
+    },
+    "coherence": {
+      "baseline": {
+        "status": "captured",
+        "sari": 36.202708912672044,
+        "total": 10,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "sari": 36.91601687058668,
+        "total": 10,
+        "skill_read": true
+      }
+    },
+    "fluency": {
+      "baseline": {
+        "status": "captured",
+        "sari": 47.56541485729874,
+        "total": 10,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "sari": 43.86260084798702,
+        "total": 10,
+        "skill_read": true
+      }
+    }
+  },
+  "pub": {
+    "1": {
+      "baseline": {
+        "status": "captured",
+        "correct": 6,
+        "total": 10,
+        "accuracy": 0.6,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "correct": 6,
+        "total": 10,
+        "accuracy": 0.6,
+        "skill_read": true
+      },
+      "paired": {
+        "felicity_only_correct": 0,
+        "baseline_only_correct": 0
+      }
+    },
+    "2": {
+      "baseline": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": true
+      },
+      "paired": {
+        "felicity_only_correct": 0,
+        "baseline_only_correct": 0
+      }
+    },
+    "3": {
+      "baseline": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": true
+      },
+      "paired": {
+        "felicity_only_correct": 0,
+        "baseline_only_correct": 0
+      }
+    },
+    "4": {
+      "baseline": {
+        "status": "captured",
+        "correct": 8,
+        "total": 10,
+        "accuracy": 0.8,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "correct": 8,
+        "total": 10,
+        "accuracy": 0.8,
+        "skill_read": true
+      },
+      "paired": {
+        "felicity_only_correct": 0,
+        "baseline_only_correct": 0
+      }
+    },
+    "5": {
+      "baseline": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": true
+      },
+      "paired": {
+        "felicity_only_correct": 0,
+        "baseline_only_correct": 0
+      }
+    },
+    "6": {
+      "baseline": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": true
+      },
+      "paired": {
+        "felicity_only_correct": 0,
+        "baseline_only_correct": 0
+      }
+    },
+    "7": {
+      "baseline": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": true
+      },
+      "paired": {
+        "felicity_only_correct": 0,
+        "baseline_only_correct": 0
+      }
+    },
+    "8": {
+      "baseline": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": true
+      },
+      "paired": {
+        "felicity_only_correct": 0,
+        "baseline_only_correct": 0
+      }
+    },
+    "9": {
+      "baseline": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": true
+      },
+      "paired": {
+        "felicity_only_correct": 0,
+        "baseline_only_correct": 0
+      }
+    },
+    "10": {
+      "baseline": {
+        "status": "captured",
+        "correct": 6,
+        "total": 10,
+        "accuracy": 0.6,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "correct": 6,
+        "total": 10,
+        "accuracy": 0.6,
+        "skill_read": true
+      },
+      "paired": {
+        "felicity_only_correct": 0,
+        "baseline_only_correct": 0
+      }
+    },
+    "11": {
+      "baseline": {
+        "status": "captured",
+        "correct": 9,
+        "total": 10,
+        "accuracy": 0.9,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": true
+      },
+      "paired": {
+        "felicity_only_correct": 1,
+        "baseline_only_correct": 0
+      }
+    },
+    "12": {
+      "baseline": {
+        "status": "captured",
+        "correct": 7,
+        "total": 10,
+        "accuracy": 0.7,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "correct": 7,
+        "total": 10,
+        "accuracy": 0.7,
+        "skill_read": true
+      },
+      "paired": {
+        "felicity_only_correct": 0,
+        "baseline_only_correct": 0
+      }
+    },
+    "13": {
+      "baseline": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0,
+        "skill_read": true
+      },
+      "paired": {
+        "felicity_only_correct": 0,
+        "baseline_only_correct": 0
+      }
+    },
+    "14": {
+      "baseline": {
+        "status": "captured",
+        "correct": 9,
+        "total": 10,
+        "accuracy": 0.9,
+        "skill_read": false
+      },
+      "felicity": {
+        "status": "captured",
+        "correct": 9,
+        "total": 10,
+        "accuracy": 0.9,
+        "skill_read": true
+      },
+      "paired": {
+        "felicity_only_correct": 0,
+        "baseline_only_correct": 0
+      }
+    }
+  },
+  "summary": {
+    "pub": {
+      "paired_items": 140,
+      "baseline_correct": 125,
+      "felicity_correct": 126,
+      "felicity_only_correct": 1,
+      "baseline_only_correct": 0
+    },
+    "editeval": {
+      "paired_items": 30,
+      "original_sari": 31.392501803618146,
+      "baseline_sari": 33.49848441448045,
+      "felicity_sari": 34.63290433208429,
+      "paired_bootstrap": {
+        "replicates": 2000,
+        "seed": 793,
+        "stratified_by_task": true,
+        "delta_sari_95_percentile_interval": [
+          -0.5847827547596793,
+          2.862389018434392
+        ]
+      }
+    }
+  }
+}

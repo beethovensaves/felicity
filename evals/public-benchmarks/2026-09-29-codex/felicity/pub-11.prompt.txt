@@ -1,0 +1,81 @@
+Use $felicity-review. Read .agents/skills/felicity-review/SKILL.md and .agents/skills/felicity-review/references/review-standard.md before answering. Examine what each utterance conveys in context. For each numbered item, choose the best option. Return only the 1-based option number for each item, in order, in the required JSON answers array. Answer the questions; do not report review findings.
+
+Item 1:
+Premise: Allison's grocery store that is annoying Dana doesn't look like the picture.
+Hypothesis: Allison doesn't have exactly one grocery store that is annoying Dana.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 2:
+Premise: If Amanda had left, it's okay.
+Hypothesis: Amanda wasn't here.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 3:
+Premise: Did the ten women that talk implore Pamela to bore Kenneth?
+Hypothesis: There are exactly ten committees that talk.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 4:
+Premise: Both museums that persuaded the Lutherans' tutor to forfeit did prefer Amelia to reveal Julie.
+Hypothesis: There are exactly two banks that persuaded the Lutherans' tutor to forfeit
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 5:
+Premise: Tina doesn't remember when Anne had bored Debra.
+Hypothesis: Anne had bored Debra
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 6:
+Premise: It is Winston Churchill who is ascertaining these sweaters to twist.
+Hypothesis: Exactly one person is ascertaining these sweaters to twist.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 7:
+Premise: Helen didn't only require the Impressionists' associates to come here.
+Hypothesis: Helen only required the Impressionists' associates to come here.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 8:
+Premise: It is Craig who had appreciated Travis.
+Hypothesis: Exactly one person had appreciated Deborah.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 9:
+Premise: If teachers conceal when Amy has come here, it's okay.
+Hypothesis: Amy has come here
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 10:
+Premise: Irene might have forgotten about where Cindy declares many adults to succeed.
+Hypothesis: Walter declares many adults to succeed.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise

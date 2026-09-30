@@ -1,0 +1,71 @@
+Examine what each utterance conveys in context. For each numbered item, choose the best option. Return only the 1-based option number for each item, in order, in the required JSON answers array. Answer the questions; do not report review findings.
+
+Item 1:
+Sentence : Liz proceeded to beard the lion in his den, hoping he wouldn't bite this time.
+Hint : To beard the lion in his den means to confront risk or danger head on, which is what Liz did by confronting the risk head on.
+Options:
+1. Liz proceeded to confront the risk or danger head on, hoping he wouldn't bite this time.
+2. Liz proceeded to avoid the risk or danger altogether, hoping he wouldn't bite this time.
+
+Item 2:
+Sentence : , Sophie rolling her eyes,'Oh, that news will go down like a lead balloon!
+Hint : To go down like a lead balloon means to be an utter failure and cause displeasure, which is what Sophie is predicting the news will do.
+Options:
+1. Sophie rolling her eyes,'Oh, that news will be a great success and will cause people to be very pleased!
+2. Sophie rolling her eyes,'Oh, that news will be an utter failure and will cause displeasure!
+
+Item 3:
+Sentence : Eve waved and got into the big, black hearse, and miranda waved back like a kid at her first parade
+Hint : A kid at her first parade would be very excited and enthusiastic about the event, so Miranda is waving enthusiastically.
+Options:
+1. Eve got into the big, black hearse and Miranda waved back enthusiastically.
+2. Eve got into the big, black hearse and Miranda waved back apathetically.
+
+Item 4:
+Sentence : His declarations sparked a fire in the community.
+Hint : Sparked a fire implies that his declaration made the community excited.
+Options:
+1. His declarations doused the fire in the community.
+2. His declarations excited the community.
+
+Item 5:
+Sentence : Yet as the days would pass the user would become more like a lost student.
+Hint : A lost student is someone who is feeling confused and disoriented, which is how the user would feel as they become increasingly distressed.
+Options:
+1. Yet as the days would pass, the user would become increasingly content.
+2. Yet as the days would pass the user would become increasingly distressed
+
+Item 6:
+Sentence : She was sure she was living this fantasy romance and kept deluding herself.
+Hint : Deluding oneself means to continue believing something even though it is not true, where, In this case, the woman continued to believe she was living a romantic adventure, even though she was really just hiding from everyone.
+Options:
+1. She was totally under the illusion that she was living a romantic adventure.
+2. She was sure she was in the midst of a nightmare and kept wakening herself up.
+
+Item 7:
+Sentence : join the club, but they're really serious now.
+Hint : Join the club is a phrase used to express sympathy, so by saying "I feel your pain" the speaker is sympathizing.
+Options:
+1. I don't feel your pain, but they're really serious now.
+2. I feel your pain, but they're really serious now.
+
+Item 8:
+Sentence : Realization hit him like a full broadside from a galleon's cannons.
+Hint : A full broadside from a galleon's cannons would be very powerful and destructive, so this simile is indicating that the realization hit him very powerfully and suddenly.
+Options:
+1. Realization hit him hard and fast
+2. Realization hit him slowly and gradually.
+
+Item 9:
+Sentence : He wanted to fight, but he was like a pup being held by the scruff.
+Hint : When a mother dog picks up her pup by the scruff of its neck, it is a sign of dominance and the pup is helpless to fight back, implying he was helpless.
+Options:
+1. Even though he didn't want to fight, he was powerful.
+2. Even though he wanted to fight, he was helpless.
+
+Item 10:
+Sentence : We have learned that the ending of the Earth is like death and taxes.
+Hint : Death and taxes are two things in life that are certain and unavoidable, so the simile is emphasizing that the end of the world is also certain and unavoidable.
+Options:
+1. We have come to the realization that the end of the world is preventable.
+2. We have come to the realization that the end of the world is unavoidable.

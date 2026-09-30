@@ -1,0 +1,25 @@
+{
+  "benchmark": "editeval",
+  "task": "fluency",
+  "mode": "felicity",
+  "status": "captured",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "skill_read": true,
+  "skill_read_paths": [
+    "/skills/felicity-write/SKILL.md"
+  ],
+  "disabled_global_felicity": [
+    "felicity-review",
+    "felicity-write"
+  ],
+  "usage": {
+    "input_tokens": 36288,
+    "cached_input_tokens": 16128,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 677,
+    "reasoning_output_tokens": 136
+  },
+  "error": "",
+  "timestamp_utc": "2026-09-30T03:46:08.808612+00:00"
+}

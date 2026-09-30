@@ -1,0 +1,111 @@
+Examine what each utterance conveys in context. For each numbered item, choose the best option. Return only the 1-based option number for each item, in order, in the required JSON answers array. Answer the questions; do not report review findings.
+
+Item 1:
+Context: X and Y are colleagues who are leaving work on a Friday at the same time.
+X: Do you have any plan for the weekend?
+Y: I'm got nothing special going on.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 2:
+Context: X wants to know about Y's music preferences.
+X: Do you play any wind or string instruments?
+Y: I can play the banjo.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 3:
+Context: X wants to know about Y's music preferences.
+X: Are you a fan of movie soundtracks?
+Y: I love the mix of songs in many movies.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 4:
+Context: Y has just told X that he/she is considering switching his/her job.
+X: Do you enjoy working in a team environment?
+Y: I like having other people to bounce ideas off of.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 5:
+Context: Y has just moved into a neighbourhood and meets his/her new neighbour X.
+X: Would you be interested in a pool party?
+Y: That sounds like fun.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 6:
+Context: X wants to know about Y's food preferences.
+X: Do you have a high budget?
+Y: I'm trying to cut back on my spending.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 7:
+Context: X and Y are colleagues who are leaving work on a Friday at the same time.
+X: Did you finish the project on time?
+Y: We missed our deadline by a week.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 8:
+Context: X wants to know what sorts of books Y likes to read.
+X: Are you into graphic novels?
+Y: I only read fiction novels.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 9:
+Context: Y has just travelled from a different city to meet X.
+X: do you have any places in mind you want to go?
+Y: I really want to see the newest art exhibitions.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 10:
+Context: X and Y are colleagues who are leaving work on a Friday at the same time.
+X: Aren't you glad it's Friday?
+Y: Normally I would be, but I have to work tomorrow.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other

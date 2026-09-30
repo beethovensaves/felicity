@@ -6,6 +6,10 @@ linked files contain the complete final answers; the case prompts and grading cr
 [`cases.json`](cases.json). The scores below were judged manually against those criteria, one point
 per criterion. They are a small sample, not a general performance estimate.
 
+The [public benchmark sample](public-benchmarks/2026-09-29-codex/REPORT.md) is a separate paired
+comparison on 30 EditEval edits and 140 PUB questions. Its automatic scores should be read with
+the source-label and reference limitations documented there.
+
 | Case | Result | What the answer did |
 | --- | ---: | --- |
 | [`review-causal-leap`](observed/codex/review-causal-leap.txt) | 3/3 | Identified the unsupported move from timing to removing Redis and recommended isolating the cause. |

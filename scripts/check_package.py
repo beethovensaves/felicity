@@ -234,7 +234,7 @@ def validate() -> list[str]:
 
     for name in (
         "scripts/build_packages.py", "scripts/install_package.py", "scripts/run_evals.py",
-        "scripts/summarize_evals.py",
+        "scripts/run_public_benchmarks.py", "scripts/summarize_evals.py",
     ):
         path = ROOT / name
         try:

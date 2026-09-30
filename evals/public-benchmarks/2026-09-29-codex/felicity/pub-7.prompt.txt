@@ -1,0 +1,61 @@
+Use $felicity-review. Read .agents/skills/felicity-review/SKILL.md and .agents/skills/felicity-review/references/review-standard.md before answering. Examine what each utterance conveys in context. For each numbered item, choose the best option. Return only the 1-based option number for each item, in order, in the required JSON answers array. Answer the questions; do not report review findings.
+
+Item 1:
+Sentence : The window panes were trembling as the wind blew through them.
+Options:
+1. The calming effect of the window panes was juxtaposed to the blowing wind outside.
+2. The panes of the windows were rattling whenever there is a strong wind.
+
+Item 2:
+Sentence : Till it took the form and features.
+Options:
+1. Till it lost the form and features.
+2. Till it acquired the form and features.
+
+Item 3:
+Sentence : Great to see young blood getting their feet wet.
+Options:
+1. Great to see a new person or people getting their feet wet.
+2. Great to see the old timers are still getting their feet wet.
+
+Item 4:
+Sentence : But this other world doesn't want to be known, it wants to remain like an underground cult.
+Options:
+1. But this other world wants to be known, it doesn't want to remain hidden.
+2. But this other world doesn't want to be known, it wants to remain hidden
+
+Item 5:
+Sentence : After finding a strange mask on the beach, you become suddenly more like a sun-kissed popstar.
+Options:
+1. After you find a strange mask on the beach, you become poor and obscure.
+2. After you find a strange mask on the beach, you become rich and famous.
+
+Item 6:
+Sentence : Everything seemed like an alley-themed funhouse .
+Options:
+1. Everything seemed proportional.
+2. Everything seemed disproportional .
+
+Item 7:
+Sentence : Those cholos are dumb as jellyfish, quade said like a sardine facing a shark.
+Options:
+1. Quade said cowardly that those cholos are dumb as jellyfish.
+2. Quade said bravely that those cholos are dumb as jellyfish.
+
+Item 8:
+Sentence : The atmosphere was like a funeral chamber for some big shot human being.
+Options:
+1. The atmosphere was dark and mysterious,
+2. The atmosphere was light and cheerful.
+
+Item 9:
+Sentence : "Good enough" Grond said now lead the way.
+Options:
+1. "Good enough" Grond said now don't go ahead of me, I will show you the way.
+2. "Good enough" Grond said now go ahead of me and show me the way.
+
+Item 10:
+Sentence : Right next to her, pausanius himself sat like a punished child.
+Options:
+1. Pausanius was tied up and brooding right next to her.
+2. Pausanius was free and cheerful right next to her.

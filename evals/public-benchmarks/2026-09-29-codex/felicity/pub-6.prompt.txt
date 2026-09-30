@@ -1,0 +1,71 @@
+Use $felicity-review. Read .agents/skills/felicity-review/SKILL.md and .agents/skills/felicity-review/references/review-standard.md before answering. Examine what each utterance conveys in context. For each numbered item, choose the best option. Return only the 1-based option number for each item, in order, in the required JSON answers array. Answer the questions; do not report review findings.
+
+Item 1:
+Speaker_1: The casino is ruthless.
+Speaker_2: True, The casino has the integrity of a priest.
+Options:
+1. Agrees
+2. Sarcastic
+
+Item 2:
+Speaker_1: His eyes move rapidly
+Speaker_2: Yeah, His eyes move like a hummingbird's wings
+Options:
+1. Agrees
+2. Sarcastic
+
+Item 3:
+Speaker_1: Marriage hardly lasts very long.
+Speaker_2: Yes, marriage has the longevity of a fleeting season.
+Options:
+1. Agrees
+2. Sarcastic
+
+Item 4:
+Speaker_1: Her hair smelled very burnt
+Speaker_2: Yeah, Her hair smelled burnt as an oven set to "self-cleaning mode"
+Options:
+1. Agrees
+2. Sarcastic
+
+Item 5:
+Speaker_1: The boy was happy
+Speaker_2: Yes, The birthday boy was as happy as a day full of sunshine
+Options:
+1. Agrees
+2. Sarcastic
+
+Item 6:
+Speaker_1: The computer is slow.
+Speaker_2: Yes, The computer is as fast as a hungry cheetah
+Options:
+1. Agrees
+2. Sarcastic
+
+Item 7:
+Speaker_1: The woman's health was poor.
+Speaker_2: Yes, The woman's health was processed bread
+Options:
+1. Agrees
+2. Sarcastic
+
+Item 8:
+Speaker_1: The song sounded beautiful beyond belief.
+Speaker_2: Yeah, The song sounded like a 1994 Toyota Corolla that's never had its brakes changed.
+Options:
+1. Agrees
+2. Sarcastic
+
+Item 9:
+Speaker_1: The dog is small
+Speaker_2: Of course, The dog has the size of a Horse
+Options:
+1. Agrees
+2. Sarcastic
+
+Item 10:
+Speaker_1: He is reliable.
+Speaker_2: Of course, You can rely on him the same way you can count on winning the lottery.
+Options:
+1. Agrees
+2. Sarcastic

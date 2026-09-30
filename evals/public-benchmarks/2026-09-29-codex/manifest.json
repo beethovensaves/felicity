@@ -1,0 +1,1597 @@
+{
+  "version": 1,
+  "seed": 20260929,
+  "count_per_task": 10,
+  "sources": {
+    "editeval": "https://github.com/facebookresearch/EditEval",
+    "iterater_test": "https://huggingface.co/datasets/wanyu/IteraTeR_human_sent/resolve/main/test.json",
+    "pub": "https://huggingface.co/datasets/cfilt/PUB/tree/main/data",
+    "sha256": {
+      "iterater_test": "1a30452c33bd5379ff56159016d68ecd7e2669ede1e4ea77244c6e300952e9cb",
+      "pub_task_archives": {
+        "1": "0074fc571e5964a66806b05276da19229acf0b73938b124acb1c8c6f98c375fc",
+        "2": "b6909eed064c2bf97eea837136fa4490909a1894102e14f5c37d4f6d95e5299e",
+        "3": "6f505c5cb06e298de419f35fc88d516435b503c9553e37bc9f2ac15b5a55db2e",
+        "4": "703446381fc257ca5d918de1e5a879e58ee5ec068bddadfea133bc8bebea0406",
+        "5": "b41ef2d35c4897f7dbfb76ddab6a3130b6ef10ea63ebd94010a661550f6bf2a2",
+        "6": "1f8be8c5a60daee2b2bb52ef7f9939c9bb770fc87716e5b54a14018651602b26",
+        "7": "cd8b85db5cea80df2bbc45e6947f89ac0ad7b6e196a1d3eba9f1a6c488a5dbe9",
+        "8": "eac38fef1533df843d3af9625e724e2863e8c85a4e17d9d47e5827ab56296270",
+        "9": "f88fa614353cbec3f10f232eac40dbd965b1206792206bd5b620dd1f470f1a03",
+        "10": "7ff63a940190bb9572910277239adef46f859089b734ec7f80322bff16bdfea0",
+        "11": "961e83467527b5596954576484166cf4cc0d0ca80e6e68314febcc23546cd516",
+        "12": "a137740dd0887f95818cfd36c187c60e77a02a16b2833edd2deb749f5e0dc188",
+        "13": "f74cc9e5cbf81ff05d807069240c845593ad1a081bb46683107e00f49ad7a805",
+        "14": "30da0af46d953f62e43aac5a96784452f75676dccef75d8ce549311c9884df19"
+      }
+    }
+  },
+  "editeval": {
+    "clarity": [
+      {
+        "source_index": 233,
+        "input": "One hundred students from Serbia who decide to start graduate studies abroad will get 15,000 a year scholarships from the Fund for young talents . Students who can apply need to have at least  8.5 GPA on 5 to 10 scale, and have to be younger then 26.",
+        "reference": "One hundred students from Serbia who decide to pursue graduate studies abroad will get 15,000 a year scholarships from the Fund for young talents . Students who can apply need to have at least 8.5 GPA on 5 to 10 scale, and have to be younger then 26."
+      },
+      {
+        "source_index": 350,
+        "input": "which is made to the audience of his appeal, he is look a like an actor in the Philippines, JM de URL Biography Lopez was born and raised in the southern tip of Metro Manila, before he joined the pageant of Mister Philippines, Fhrancis work as a model and he signing contracted in a Go Green Artists his agency and the Project Management, After he won and got the prize, Fhrancis held pageant of Patravadi Theatre, Lopez is one of the finalists Top 16  in Mister International 2011.",
+        "reference": "which is made to the audience of his appeal, he is look a like an actor in the Philippines, JM de URL Biography Lopez was born and raised in the southern tip of Metro Manila, before he joined the pageant of Mister Philippines, Fhrancis work as a model and he signing contracted in a Go Green Artists and the Project Management, After he won and got the prize, Fhrancis held pageant of Patravadi Theatre, Lopez is one of the finalists Top 16 in Mister International 2011."
+      },
+      {
+        "source_index": 159,
+        "input": "In this paper, we present HALO 1.0, an open-ended extensible multi-agent software framework that implements a set of proposed hardware-agnostic accelerator orchestration (HALO) principles and a novel compute-centric message passing interface (C^2MPI) specification for enabling the portable and performance-optimized execution of hardware-agnostic application host codes across heterogeneous accelerator resources.",
+        "reference": "In this paper, we present HALO 1.0, an open-ended extensible multi-agent software framework that implements a set of proposed hardware-agnostic accelerator orchestration (HALO) principles . HALO implements a novel compute-centric message passing interface (C^2MPI) specification for enabling the portable and performance-optimized execution of hardware-agnostic application host codes across heterogeneous accelerator resources."
+      },
+      {
+        "source_index": 310,
+        "input": "As the world's ocean is the principal component of Earth's hydrosphere, it is integral to life on Earth, forms part of the carbon cycle and water cycle, and - as a huge heat reservoir - influences climate and weather patterns.",
+        "reference": "The ocean is the principal component of Earth's hydrosphere, it is integral to life on Earth, forms part of the carbon cycle and water cycle, and - as a huge heat reservoir - influences climate and weather patterns."
+      },
+      {
+        "source_index": 73,
+        "input": "However, it is often overlooked that the decoder only has a single view of the source sequences, that is, the representations generated by the last encoder layer, which is supposed to be a  global view of source sequences . Such implementation hinders the decoder from concrete, fine-grained, local source information.",
+        "reference": "However, it is often overlooked that the decoder only has a single view of the source sequences, that is, the representations generated by the last encoder layer, which is supposed to be a global view of source sequences, such practice keeps the decoders from concrete, fine-grained, local source information."
+      },
+      {
+        "source_index": 290,
+        "input": "The FCC is looking into phone companies who may have supplied the phone records illegally under California law. So",
+        "reference": "The Federal Communications Commission is looking into phone companies who may have supplied the phone records illegally under California law. So"
+      },
+      {
+        "source_index": 123,
+        "input": "A reduction of quadratic time and memory complexity to sublinear was achieved due to a robust differentiable top-k operator.",
+        "reference": "A reduction of quadratic time and memory complexity to sublinear was achieved due to a robust trainable top-k operator."
+      },
+      {
+        "source_index": 222,
+        "input": "2008 The 27th Young Designers' Exhibition, opened on May 15 at the Taipei World Trade Center and will close at Sunday May 18.",
+        "reference": "2008 The 27th Young Designers' Exhibition, opened on May 15 at the Taipei World Trade Center and closes Sunday May 18."
+      },
+      {
+        "source_index": 322,
+        "input": "It is this upper sunlit ocean that creates the food supply that ultimately sustains most of the ocean ecosystem  . Light only penetrates to a  few hundred meters depth, so the remaining ocean below this is cold and dark.",
+        "reference": "This upper sunlit zone of the ocean ultimately sustains most of the ocean ecosystem . Light only penetrates to a few hundred meters depth, so the remaining ocean below this is cold and dark."
+      },
+      {
+        "source_index": 32,
+        "input": "To study a better metric for genQA, we collect high-quality human judgments of correctness on two standard genQA datasets.",
+        "reference": "To study a better metric for GenQA, we first create high-quality human judgments of correctness on two standard genQA datasets."
+      }
+    ],
+    "coherence": [
+      {
+        "source_index": 218,
+        "input": "2008 The 27th Young Designers' Exhibition, famed as the largest show from students' creations, recognized by International Council of Societies of Industrial Design (ICSID) since last year, started at Taipei World Trade Center yesterday and will close at Sunday (May 18) with participations from 87 academical units in Taiwan and 20 units from United States, United Kingdom, Italy, Netherlands, New Zealand, and Australia to showcase varied achievements from designindustry.",
+        "reference": "2008 The 27th Young Designers' Exhibition, famed as the largest show from students' creations, recognized by International Council of Societies of Industrial Design (ICSID) since last year, started at Taipei World Trade Center yesterday and will close at Sunday May 18. It features participation by 87 academical units in Taiwan and 20 units from United States, United Kingdom, Italy, Netherlands, New Zealand, and Australia to showcase varied achievements from designindustry."
+      },
+      {
+        "source_index": 8,
+        "input": "Based on the general linguistic structure of humor, in this paper, we propose a novel approach for detecting humor in short texts by using BERT sentence embedding.",
+        "reference": "In this paper, we propose a novel approach for detecting humor in short texts by using BERT sentence embedding."
+      },
+      {
+        "source_index": 146,
+        "input": "In this paper, we present Generation-Augmented Retrieval (GAR), a query expansion method that augments a query with relevant contexts through text generation .",
+        "reference": "In this paper, we present Generation-Augmented Retrieval (GAR), a query expansion method that augments a query through text generation."
+      },
+      {
+        "source_index": 359,
+        "input": "Mister Philippines 2011 & Mister International 2011 Lopez  declared as one of the winner of Mister Philippines 2011, After he won the competition on December 17, 2011, Lopez joined the compete in the Mister International 2011 pageant which is happening in Pattaya, Thailand and Bangkok.",
+        "reference": "Mister Philippines 2011 & Mister International 2011 Lopez declared as one of the winner of Mister Philippines 2011, After he won the competition on December 17, 2011, Lopez joined the compete in the Mister International 2011 pageant in Pattaya, Thailand and Bangkok."
+      },
+      {
+        "source_index": 226,
+        "input": "In addition, Taiwan Design Center, the show organizer, also designed several site events like \"On-line Graduate Season Show\",\" Carrer Match-up\",\"Creative and Cultural Showcase and Performance\",\"Seminars of YODEX 2008\" to link the actual exhibition with  on-line exhibition.",
+        "reference": "The show's organizer, Taiwan Design Center, the show organizer, also designed several site events like \"On-line Graduate Season Show\",\" Carrer Match-up\",\"Creative and Cultural Showcase and Performance\",\"Seminars of YODEX 2008\" to link the actual exhibition with on-line exhibition."
+      },
+      {
+        "source_index": 312,
+        "input": "As the world's ocean is the principal component of Earth's hydrosphere, it is integral to life on Earth, forms part of the carbon cycle and water cycle, and - as a huge heat reservoir - influences climate and weather patterns.",
+        "reference": "As the world's ocean is the principal component of Earth's hydrosphere, it is integral to life on Earth . The ocean is a huge heat reservoir - influences climate and weather patterns."
+      },
+      {
+        "source_index": 182,
+        "input": "In this paper, we present CANINE, a neural encoder that operates directly on character sequences--without explicit tokenization or vocabulary--and a pre-training strategy with soft inductive biases in place of hard token boundaries.",
+        "reference": "In this paper, we present CANINE, a neural encoder that operates directly on character sequences, without explicit tokenization or vocabulary--and a pre-training strategy with soft inductive biases in place of hard token boundaries."
+      },
+      {
+        "source_index": 199,
+        "input": "Each comment was annotated by three different annotators, which achieved high inter-annotator agreement.",
+        "reference": "Each comment was annotated by three different annotators, and achieved high inter-annotator agreement."
+      },
+      {
+        "source_index": 266,
+        "input": "a day after he resigned his position as Attorney-General, after publicity around his filing of an incorrect declaration, with the Companies Office on behalf of Queens Park Mews Limited.",
+        "reference": "a day after he resigned his position as Attorney-General and after publicity around his filing of an incorrect declaration, with the Companies Office on behalf of Queens Park Mews Limited."
+      },
+      {
+        "source_index": 317,
+        "input": "The pelagic zone consists of the water column of the open ocean, and can be divided into further regions categorized by light abundance and by depth.",
+        "reference": "The pelagic zone consists of the water column of the open ocean . The water column is further categorized in other zones depending on light abundance and by depth."
+      }
+    ],
+    "fluency": [
+      {
+        "source_index": 302,
+        "input": "The cause of the fire was yet to be ascertained.",
+        "reference": "The cause of the fire is yet to be ascertained."
+      },
+      {
+        "source_index": 102,
+        "input": "In all cases, our approach matches the efficiency of existing algorithms and, in several cases, reducesthe runtime complexity by a factor (or two) of the sentence length.",
+        "reference": "In all cases, our approach matches the efficiency of existing algorithms and, in several cases, reduces the runtime complexity by a factor (or two) of the sentence length."
+      },
+      {
+        "source_index": 33,
+        "input": "To study a better metric for genQA, we collect high-quality human judgments of correctness on two standard genQA datasets.",
+        "reference": "To study a better metric for genQA, we collect high-quality human judgments of correctness on two standard GenQA datasets."
+      },
+      {
+        "source_index": 196,
+        "input": "a binary classification (offensive versus non-offensive language), the level of offense (highly offensive, moderately offensive  and slightly offensive messages), and the identification regarding the target of the discriminatory content (xenophobia, racism, homophobia, sexism, religion intolerance, partyism, apology to the dictatorship, antisemitism  and fat phobia).",
+        "reference": "a binary classification (offensive versus non-offensive language), the level of offense (highly offensive, moderately offensive, and slightly offensive messages), and the identification regarding the target of the discriminatory content (xenophobia, racism, homophobia, sexism, religion intolerance, partyism, apology to the dictatorship, antisemitism and fat phobia)."
+      },
+      {
+        "source_index": 340,
+        "input": "Born in Aluva, in the south Indian state of Kerala  to Thenumgal Poulose and Mariam in a Malayali family, he did his under-graduate studies at UC College before graduating in medicine from Stanley Medical College, Chennai  and secured his MS degree from the same institution.",
+        "reference": "Born in Aluva, in the south Indian state of Kerala, to Thenumgal Poulose and Mariam in a Malayali family, he did his under-graduate studies at UC College before graduating in medicine from Stanley Medical College, Chennai and secured his MS degree from the same institution."
+      },
+      {
+        "source_index": 298,
+        "input": "Eighteen people were seriously injured and admitted to  National Medical College and Hospital.",
+        "reference": "Eighteen people were seriously injured and admitted to the National Medical College and Hospital."
+      },
+      {
+        "source_index": 360,
+        "input": "Paderap has four sons, namely Tuanku Jalaluddin (or Kejuruan Metar), Tuanku Panglima Pasutan (or Kejuruan Padang), Tuanku Tawar (or Kejuruan Santun), and Tuanku Umar (or Kejuruan Junjongan).",
+        "reference": "Paderap had four sons, namely Tuanku Jalaluddin (or Kejuruan Metar), Tuanku Panglima Pasutan (or Kejuruan Padang), Tuanku Tawar (or Kejuruan Santun), and Tuanku Umar (or Kejuruan Junjongan)."
+      },
+      {
+        "source_index": 91,
+        "input": "However, in recent years it has been shown that these models possess weakness to noises which forces the model to misclassify.",
+        "reference": "However, in recent years it has been shown that these models possess weakness to noises which force the model to misclassify."
+      },
+      {
+        "source_index": 342,
+        "input": "He started his practice under government service at Madras Medical College where he helped establish the department of vascular surgery in 1978 and served as its founder head till his superannuation in 1993.",
+        "reference": "He started his practice under government service at Madras Medical College where he helped establish the department of vascular surgery in 1978 and served as its founder head until his superannuation in 1993."
+      },
+      {
+        "source_index": 269,
+        "input": "the three shareholders had unanimously agreed not to appoint an auditor for the company, but according to Investigate Magazine, another shareholder  Russell Hyslop, had never been consulted about the matter.",
+        "reference": "the three shareholders had unanimously agreed not to appoint an auditor for the company; but according to Investigate Magazine, another shareholder Russell Hyslop, had never been consulted about the matter."
+      }
+    ]
+  },
+  "pub": {
+    "1": [
+      {
+        "source_id": "1290",
+        "pretext": "Context: X wants to know what sorts of books Y likes to read.\nQuestion: Do you read biographies?\nResponse: I read biographies .\n",
+        "options": [
+          "Direct answer",
+          "Indirect answer"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "2018",
+        "pretext": "Context: X and Y are childhood neighbours who unexpectedly run into each other at a cafe.\nQuestion: Does you family live in the area?\nResponse: I does live in the area .\n",
+        "options": [
+          "Direct answer",
+          "Indirect answer"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "595",
+        "pretext": "Context: X wants to know about Y's food preferences.\nQuestion: Are you a vegetarian or vegan?\nResponse: I am a vegetarian or vegan .\n",
+        "options": [
+          "Direct answer",
+          "Indirect answer"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "36",
+        "pretext": "Context: Y has just moved into a neighbourhood and meets his/her new neighbour X.\nQuestion: Do you like this neighbourhood?\nResponse: So far I do\n",
+        "options": [
+          "Direct answer",
+          "Indirect answer"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "535",
+        "pretext": "Context: X wants to know about Y's music preferences.\nQuestion: Would you like to see the gig at the town hall next week?\nResponse: I would like to see the gig at the town hall next week .\n",
+        "options": [
+          "Direct answer",
+          "Indirect answer"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "2059",
+        "pretext": "Context: X and Y are colleagues who are leaving work on a Friday at the same time.\nQuestion: did you park in the parking garage?\nResponse: I did park in the parking garage .\n",
+        "options": [
+          "Direct answer",
+          "Indirect answer"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "2228",
+        "pretext": "Context: X and Y are childhood neighbours who unexpectedly run into each other at a cafe.\nQuestion: Do your folks still live it the same place?\nResponse: They moved a few years ago.\n",
+        "options": [
+          "Direct answer",
+          "Indirect answer"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1821",
+        "pretext": "Context: Y has just told X that he/she is considering switching his/her job.\nQuestion: Is your job stressful?\nResponse: Not really, but it's action-packed.\n",
+        "options": [
+          "Direct answer",
+          "Indirect answer"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1869",
+        "pretext": "Context: X and Y are childhood neighbours who unexpectedly run into each other at a cafe.\nQuestion: Do you work around here?\nResponse: I do work close by at the store.\n",
+        "options": [
+          "Direct answer",
+          "Indirect answer"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1524",
+        "pretext": "Context: X wants to know what sorts of books Y likes to read.\nQuestion: Do like readers digest?\nResponse: It's not something I read regularly.\n",
+        "options": [
+          "Direct answer",
+          "Indirect answer"
+        ],
+        "answer_index": 2
+      }
+    ],
+    "2": [
+      {
+        "source_id": "1207",
+        "pretext": "Context: X and Y are colleagues who are leaving work on a Friday at the same time.\nX: Do you have any plan for the weekend?\nY: I'm got nothing special going on.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "831",
+        "pretext": "Context: X wants to know about Y's music preferences.\nX: Do you play any wind or string instruments?\nY: I can play the banjo.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1772",
+        "pretext": "Context: X wants to know about Y's music preferences.\nX: Are you a fan of movie soundtracks?\nY: I love the mix of songs in many movies.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1800",
+        "pretext": "Context: Y has just told X that he/she is considering switching his/her job.\nX: Do you enjoy working in a team environment?\nY: I like having other people to bounce ideas off of.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "774",
+        "pretext": "Context: Y has just moved into a neighbourhood and meets his/her new neighbour X.\nX: Would you be interested in a pool party?\nY: That sounds like fun.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "180",
+        "pretext": "Context: X wants to know about Y's food preferences.\nX: Do you have a high budget?\nY: I'm trying to cut back on my spending.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "2364",
+        "pretext": "Context: X and Y are colleagues who are leaving work on a Friday at the same time.\nX: Did you finish the project on time?\nY: We missed our deadline by a week.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1534",
+        "pretext": "Context: X wants to know what sorts of books Y likes to read.\nX: Are you into graphic novels?\nY: I only read fiction novels.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "87",
+        "pretext": "Context: Y has just travelled from a different city to meet X.\nX: do you have any places in mind you want to go?\nY: I really want to see the newest art exhibitions.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1710",
+        "pretext": "Context: X and Y are colleagues who are leaving work on a Friday at the same time.\nX: Aren't you glad it's Friday?\nY: Normally I would be, but I have to work tomorrow.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 2
+      }
+    ],
+    "3": [
+      {
+        "source_id": "1053",
+        "pretext": "Context: Y has just travelled from a different city to meet X.\nX: Would you like to go out tonight?\nY: If I can find something to wear.\nImplied meaning: He would like to go out tonight with a special wear.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "2138",
+        "pretext": "Context: Y has just told X that he/she is considering switching his/her job.\nX: Will you work on the weekends?\nY: Depends if it's required.\nImplied meaning: If it's required, he works on the weekends.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "2356",
+        "pretext": "Context: X wants to know what sorts of books Y likes to read.\nX: Do you read non-fiction books?\nY: I read biographies and science books.\nImplied meaning: He reads biographies and science books. So it seems he doesn't prefer non fiction books.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "998",
+        "pretext": "Context: Y has just told X that he/she is thinking of buying a flat in New York.\nX: Do you have a practical reason for purchasing a flat in New York?\nY: I have always wanted to live there\nImplied meaning: He purchased a flat in New York because living in New York was a dream for him.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1365",
+        "pretext": "Context: X and Y are childhood neighbours who unexpectedly run into each other at a cafe.\nX: Are you still as fun as you were when we were young?\nY: I enjoy life more now than I did when we were younger.\nImplied meaning: He is still as fun as he was young because he finds life more enjoyable.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1782",
+        "pretext": "Context: X wants to know what sorts of books Y likes to read.\nX: Do you like salmon?\nY: Smoked salmon makes a good starter\nImplied meaning: I like smoked salmon as a good starter.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "2001",
+        "pretext": "Context: Y has just told X that he/she is thinking of buying a flat in New York.\nX: Are you offering the asking price?\nY: I asked for a move-in discount.\nImplied meaning: She is negotiating the asking price of buying a flat in New York.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1988",
+        "pretext": "Context: X and Y are colleagues who are leaving work on a Friday at the same time.\nX: Are you going to the gym?\nY: I went yesterday.\nImplied meaning: He is going to the gym.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "823",
+        "pretext": "Context: X and Y are colleagues who are leaving work on a Friday at the same time.\nX: Did you have a busy day?\nY: Far too busy for my liking, unfortunately.\nImplied meaning: He was exhausted because of extreemly busy schedule.\n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "58",
+        "pretext": "Context: X and Y are colleagues who are leaving work on a Friday at the same time.\nX: Do you want to get together tomorrow?\nY: If I don't have to take my kids to soccer practice.\nImplied meaning: His primary preference is his kid's soccer practice and after that he can think about get together. \n",
+        "options": [
+          "Yes",
+          "No",
+          "Yes, subject to some conditions",
+          "In the middle, neither yes nor no",
+          "Other"
+        ],
+        "answer_index": 3
+      }
+    ],
+    "4": [
+      {
+        "source_id": "1985",
+        "pretext": "Speaker_1: were you in the hall\nSpeaker_2: I journeyed to the staircase\nSpeaker_1: where can I get the strawberries\nSpeaker_2: they are in the playroom\nSpeaker_1: are some of them in the playroom\nSpeaker_2: three are there\nSpeaker_1: where can I get the corns\nSpeaker_2: they are in the bathroom\nSpeaker_1: did Nathan place the corns there\nSpeaker_2: he placed them there and travelled to the hall\nSpeaker_1: where can I get the grapefruits\nSpeaker_2: Nathan left the grapefruits in the playroom and travelled to the staircase\nSpeaker_1: are some of them in the playroom\nSpeaker_2: yes, some of them are there\nSpeaker_1: did you see the lemons\nSpeaker_2: the lemons are in the bathroom or the hall\n",
+        "options": [
+          "I am not sure where the lemons are",
+          "I was in the bathroom",
+          "I was in the hall",
+          "the lemons are in the playroom"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "377",
+        "pretext": "Speaker_1: did Avery leave the radishes in the patio\nSpeaker_2: I didn't see her\nSpeaker_1: where did you go\nSpeaker_2: I was in the patio\nSpeaker_1: where can I get the broccoli\nSpeaker_2: it is in the attic or the den\nSpeaker_1: what about the turnips\nSpeaker_2: they are in the den\n",
+        "options": [
+          "the turnips are not in the den",
+          "the turnips are in the den",
+          "I am not sure where the turnips are",
+          "I don't know where the turnips are"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "332",
+        "pretext": "Speaker_1: are all the bananas in the garage\nSpeaker_2: some are there\nSpeaker_1: where were you\nSpeaker_2: I walked to the garage and the crawlspace\nSpeaker_1: how can I find Evelyn\nSpeaker_2: she said she walked to the hallway\nSpeaker_1: where can I get the plum\nSpeaker_2: the plum is in the crawlspace\nSpeaker_1: where are the tomatoes\nSpeaker_2: they are in the back_yard\nSpeaker_1: how about the potatoes\nSpeaker_2: they are in the garage or the back_yard\n",
+        "options": [
+          "I was in the back_yard",
+          "I was not in the garage",
+          "I am not sure where the potatoes are",
+          "the potatoes are not in the back_yard"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "278",
+        "pretext": "Speaker_1: where did Liam go\nSpeaker_2: he said he was in the living_room\nSpeaker_1: did you go to the front_yard\nSpeaker_2: I returned to the laundry\nSpeaker_1: did Owen leave the celeries there\nSpeaker_2: he left the strawberries there\nSpeaker_1: are some of the cabbages there\nSpeaker_2: two are in the laundry\nSpeaker_1: where can I get the pineapples\nSpeaker_2: they are in the living_room or the laundry\nSpeaker_1: did you place them in the front_yard\nSpeaker_2: I placed them in the living_room\n",
+        "options": [
+          "I didn't place the pineapples in the living_room",
+          "I place the pineapples in the front_yard",
+          "I didn't place the pineapples in the front_yard",
+          "the pineapples are in the laundry"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "1455",
+        "pretext": "Speaker_1: did William put the oranges in the dining_room\nSpeaker_2: I didn't see him\nSpeaker_1: did he leave the cherries in the closet\nSpeaker_2: he left them in the staircase if not the closet\nSpeaker_1: did you go there\nSpeaker_2: I travelled to the dining_room\nSpeaker_1: was Emma in the staircase\nSpeaker_2: yes\nSpeaker_1: where can I find the grapefruits\nSpeaker_2: they are in the attic\nSpeaker_1: did you place them there\nSpeaker_2: no\nSpeaker_1: are all of them in the attic\nSpeaker_2: some are in the attic\nSpeaker_1: are some of the peas in the dining_room\nSpeaker_2: yes, some of them are there\n",
+        "options": [
+          "all of the grapefruits are in the dining_room",
+          "I am not sure how many peas are in the dining_room",
+          "I am not sure if some of the peas are in the dining_room",
+          "some of the peas are in the dining_room"
+        ],
+        "answer_index": 4
+      },
+      {
+        "source_id": "1152",
+        "pretext": "Speaker_1: did you see the persimmons\nSpeaker_2: there is a blue box in the master_bedroom\nSpeaker_1: are all of them in the master_bedroom\nSpeaker_2: yes\nSpeaker_1: did you place them in the master_bedroom\nSpeaker_2: no\nSpeaker_1: are some of the carrots in the workshop\nSpeaker_2: they are all there\n",
+        "options": [
+          "all of the carrots are in the master_bedroom",
+          "all the carrots are in the workshop",
+          "some of the carrots are in the workshop",
+          "three of the carrots are in the workshop"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1743",
+        "pretext": "Speaker_1: did you see the asparagus\nSpeaker_2: they are in the sunroom\nSpeaker_1: what about the cherries\nSpeaker_2: I left the cherries in the pantry and walked to the garden\nSpeaker_1: how about the lemons\nSpeaker_2: Evelyn said there is a red bathtub in the sunroom\nSpeaker_1: did Emma put the lemons there\nSpeaker_2: no, she didn't\nSpeaker_1: are some of them in the sunroom\nSpeaker_2: five are there\nSpeaker_1: where is the banana\nSpeaker_2: it is in the garden or the basement\nSpeaker_1: did you put it in the sunroom\nSpeaker_2: I put the asparagus there\n",
+        "options": [
+          "I put the asparagus in the sunroom",
+          "I didn't put the banana in the sunroom",
+          "I put the banana in the sunroom",
+          "I didn't put the asparagus in the sunroom"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "371",
+        "pretext": "Speaker_1: did you put the eggplants in the front_yard\nSpeaker_2: no, I didn't\nSpeaker_1: did Isla place them there\nSpeaker_2: she placed them there and travelled to the attic\nSpeaker_1: where can I get the celeries\nSpeaker_2: they are in the attic\nSpeaker_1: how many\nSpeaker_2: three\nSpeaker_1: where can I find the carrots\nSpeaker_2: Alexander said there is a green bottle in the office\n",
+        "options": [
+          "the carrots are in the office",
+          "the carrots are not in the office",
+          "the carrots are in the green bottle",
+          "I don't know where the carrots are"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "186",
+        "pretext": "Speaker_1: did Avery place the strawberries in the sunroom\nSpeaker_2: she didn't travel there\nSpeaker_1: where was Jayden\nSpeaker_2: he said he walked to the master_bedroom\nSpeaker_1: did Avery place the sweet potato in the kitchen\nSpeaker_2: she placed it in the kitchen if not the bedroom\nSpeaker_1: did Jayden place the pineapples there\nSpeaker_2: he placed them in the kitchen or the bedroom\nSpeaker_1: were you there\nSpeaker_2: I was in the kitchen and put the beans\nSpeaker_1: did you see the eggplants\nSpeaker_2: there is a blue envelope in the bedroom\n",
+        "options": [
+          "the eggplants are in the kitchen",
+          "I am not sure where the eggplants are",
+          "the eggplants are in the bedroom",
+          "I don't know where the eggplants are"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "247",
+        "pretext": "Speaker_1: where is the sweet potato\nSpeaker_2: the sweet potato is in the pantry\nSpeaker_1: did you leave the sweet potato there\nSpeaker_2: I left it there and travelled to the basement\n",
+        "options": [
+          "I didn't leave the sweet potato in the pantry",
+          "the sweet potato is in the sunroom",
+          "I left the sweet potato in the pantry and then travelled to the basement",
+          "the sweet potato is in the pantry"
+        ],
+        "answer_index": 3
+      }
+    ],
+    "5": [
+      {
+        "source_id": "1268",
+        "pretext": "Speaker_1: the imminent journey loomed like the sun on the horizon\nSpeaker_2: The journey is a source of happiness.",
+        "options": [
+          "Agrees",
+          "Disagrees"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1858",
+        "pretext": "Speaker_1: His thought process was as straight forward as a yard stick\nSpeaker_2: His thought process is clear.",
+        "options": [
+          "Agrees",
+          "Disagrees"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "904",
+        "pretext": "Speaker_1: The order of the students was as random as a checker board\nSpeaker_2: it is orderly",
+        "options": [
+          "Agrees",
+          "Disagrees"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "150",
+        "pretext": "Speaker_1: This movie was as interesting as watching paint dry\nSpeaker_2: the movie was captivating.",
+        "options": [
+          "Agrees",
+          "Disagrees"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "122",
+        "pretext": "Speaker_1: That woman is as tall as a person on stilts\nSpeaker_2: That woman is very short",
+        "options": [
+          "Agrees",
+          "Disagrees"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "341",
+        "pretext": "Speaker_1: Life is like a flying bird.\nSpeaker_2: We should live a carefree life to stay stress free.",
+        "options": [
+          "Agrees",
+          "Disagrees"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "516",
+        "pretext": "Speaker_1: The building's décor was like that of A building that was bombed in World War II\nSpeaker_2: The building's décor is terrible",
+        "options": [
+          "Agrees",
+          "Disagrees"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "693",
+        "pretext": "Speaker_1: The woman's laugh is as loud as a yawn\nSpeaker_2: The woman's laugh is very loud.",
+        "options": [
+          "Agrees",
+          "Disagrees"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "467",
+        "pretext": "Speaker_1: This drink has the flavor of a million sugar cubes stroking my brain\nSpeaker_2: This drink tastes good",
+        "options": [
+          "Agrees",
+          "Disagrees"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1304",
+        "pretext": "Speaker_1: he was as big as an mouse\nSpeaker_2: He was very large",
+        "options": [
+          "Agrees",
+          "Disagrees"
+        ],
+        "answer_index": 2
+      }
+    ],
+    "6": [
+      {
+        "source_id": "1873",
+        "pretext": "Speaker_1: The casino is ruthless.\nSpeaker_2: True, The casino has the integrity of a priest.",
+        "options": [
+          "Agrees",
+          "Sarcastic"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1630",
+        "pretext": "Speaker_1: His eyes move rapidly\nSpeaker_2: Yeah, His eyes move like a hummingbird's wings",
+        "options": [
+          "Agrees",
+          "Sarcastic"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1964",
+        "pretext": "Speaker_1: Marriage hardly lasts very long.\nSpeaker_2: Yes, marriage has the longevity of a fleeting season.",
+        "options": [
+          "Agrees",
+          "Sarcastic"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "400",
+        "pretext": "Speaker_1: Her hair smelled very burnt\nSpeaker_2: Yeah, Her hair smelled burnt as an oven set to \"self-cleaning mode\"",
+        "options": [
+          "Agrees",
+          "Sarcastic"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "331",
+        "pretext": "Speaker_1: The boy was happy\nSpeaker_2: Yes, The birthday boy was as happy as a day full of sunshine",
+        "options": [
+          "Agrees",
+          "Sarcastic"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "269",
+        "pretext": "Speaker_1: The computer is slow.\nSpeaker_2: Yes, The computer is as fast as a hungry cheetah",
+        "options": [
+          "Agrees",
+          "Sarcastic"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "619",
+        "pretext": "Speaker_1: The woman's health was poor.\nSpeaker_2: Yes, The woman's health was processed bread",
+        "options": [
+          "Agrees",
+          "Sarcastic"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1294",
+        "pretext": "Speaker_1: The song sounded beautiful beyond belief.\nSpeaker_2: Yeah, The song sounded like a 1994 Toyota Corolla that's never had its brakes changed.",
+        "options": [
+          "Agrees",
+          "Sarcastic"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1676",
+        "pretext": "Speaker_1: The dog is small\nSpeaker_2: Of course, The dog has the size of a Horse",
+        "options": [
+          "Agrees",
+          "Sarcastic"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "839",
+        "pretext": "Speaker_1: He is reliable.\nSpeaker_2: Of course, You can rely on him the same way you can count on winning the lottery.",
+        "options": [
+          "Agrees",
+          "Sarcastic"
+        ],
+        "answer_index": 2
+      }
+    ],
+    "7": [
+      {
+        "source_id": "1058",
+        "pretext": "Sentence : The window panes were trembling as the wind blew through them.",
+        "options": [
+          "The calming effect of the window panes was juxtaposed to the blowing wind outside.",
+          "The panes of the windows were rattling whenever there is a strong wind."
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1090",
+        "pretext": "Sentence : Till it took the form and features.",
+        "options": [
+          "Till it lost the form and features.",
+          "Till it acquired the form and features."
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "622",
+        "pretext": "Sentence : Great to see young blood getting their feet wet.",
+        "options": [
+          "Great to see a new person or people getting their feet wet.",
+          "Great to see the old timers are still getting their feet wet."
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1666",
+        "pretext": "Sentence : But this other world doesn't want to be known, it wants to remain like an underground cult.",
+        "options": [
+          "But this other world wants to be known, it doesn't want to remain hidden.",
+          "But this other world doesn't want to be known, it wants to remain hidden"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1654",
+        "pretext": "Sentence : After finding a strange mask on the beach, you become suddenly more like a sun-kissed popstar.",
+        "options": [
+          "After you find a strange mask on the beach, you become poor and obscure.",
+          "After you find a strange mask on the beach, you become rich and famous."
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1246",
+        "pretext": "Sentence : Everything seemed like an alley-themed funhouse .",
+        "options": [
+          "Everything seemed proportional.",
+          "Everything seemed disproportional ."
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1537",
+        "pretext": "Sentence : Those cholos are dumb as jellyfish, quade said like a sardine facing a shark.",
+        "options": [
+          "Quade said cowardly that those cholos are dumb as jellyfish.",
+          "Quade said bravely that those cholos are dumb as jellyfish."
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1265",
+        "pretext": "Sentence : The atmosphere was like a funeral chamber for some big shot human being.",
+        "options": [
+          "The atmosphere was dark and mysterious,",
+          "The atmosphere was light and cheerful."
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "309",
+        "pretext": "Sentence : \"Good enough\" Grond said now lead the way.",
+        "options": [
+          "\"Good enough\" Grond said now don't go ahead of me, I will show you the way.",
+          "\"Good enough\" Grond said now go ahead of me and show me the way."
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1251",
+        "pretext": "Sentence : Right next to her, pausanius himself sat like a punished child.",
+        "options": [
+          "Pausanius was tied up and brooding right next to her.",
+          "Pausanius was free and cheerful right next to her."
+        ],
+        "answer_index": 1
+      }
+    ],
+    "8": [
+      {
+        "source_id": "37",
+        "pretext": "Sentence : Liz proceeded to beard the lion in his den, hoping he wouldn't bite this time.\nHint : To beard the lion in his den means to confront risk or danger head on, which is what Liz did by confronting the risk head on.",
+        "options": [
+          "Liz proceeded to confront the risk or danger head on, hoping he wouldn't bite this time.",
+          "Liz proceeded to avoid the risk or danger altogether, hoping he wouldn't bite this time."
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "196",
+        "pretext": "Sentence : , Sophie rolling her eyes,'Oh, that news will go down like a lead balloon!\nHint : To go down like a lead balloon means to be an utter failure and cause displeasure, which is what Sophie is predicting the news will do.",
+        "options": [
+          "Sophie rolling her eyes,'Oh, that news will be a great success and will cause people to be very pleased!",
+          "Sophie rolling her eyes,'Oh, that news will be an utter failure and will cause displeasure!"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1418",
+        "pretext": "Sentence : Eve waved and got into the big, black hearse, and miranda waved back like a kid at her first parade\nHint : A kid at her first parade would be very excited and enthusiastic about the event, so Miranda is waving enthusiastically.",
+        "options": [
+          "Eve got into the big, black hearse and Miranda waved back enthusiastically.",
+          "Eve got into the big, black hearse and Miranda waved back apathetically."
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1152",
+        "pretext": "Sentence : His declarations sparked a fire in the community.\nHint : Sparked a fire implies that his declaration made the community excited.",
+        "options": [
+          "His declarations doused the fire in the community.",
+          "His declarations excited the community."
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1647",
+        "pretext": "Sentence : Yet as the days would pass the user would become more like a lost student.\nHint : A lost student is someone who is feeling confused and disoriented, which is how the user would feel as they become increasingly distressed.",
+        "options": [
+          "Yet as the days would pass, the user would become increasingly content.",
+          "Yet as the days would pass the user would become increasingly distressed"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "875",
+        "pretext": "Sentence : She was sure she was living this fantasy romance and kept deluding herself.\nHint : Deluding oneself means to continue believing something even though it is not true, where, In this case, the woman continued to believe she was living a romantic adventure, even though she was really just hiding from everyone.",
+        "options": [
+          "She was totally under the illusion that she was living a romantic adventure.",
+          "She was sure she was in the midst of a nightmare and kept wakening herself up."
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "293",
+        "pretext": "Sentence : join the club, but they're really serious now.\nHint : Join the club is a phrase used to express sympathy, so by saying \"I feel your pain\" the speaker is sympathizing.",
+        "options": [
+          "I don't feel your pain, but they're really serious now.",
+          "I feel your pain, but they're really serious now."
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1297",
+        "pretext": "Sentence : Realization hit him like a full broadside from a galleon's cannons.\nHint : A full broadside from a galleon's cannons would be very powerful and destructive, so this simile is indicating that the realization hit him very powerfully and suddenly.",
+        "options": [
+          "Realization hit him hard and fast",
+          "Realization hit him slowly and gradually."
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1558",
+        "pretext": "Sentence : He wanted to fight, but he was like a pup being held by the scruff.\nHint : When a mother dog picks up her pup by the scruff of its neck, it is a sign of dominance and the pup is helpless to fight back, implying he was helpless.",
+        "options": [
+          "Even though he didn't want to fight, he was powerful.",
+          "Even though he wanted to fight, he was helpless."
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1659",
+        "pretext": "Sentence : We have learned that the ending of the Earth is like death and taxes.\nHint : Death and taxes are two things in life that are certain and unavoidable, so the simile is emphasizing that the end of the world is also certain and unavoidable.",
+        "options": [
+          "We have come to the realization that the end of the world is preventable.",
+          "We have come to the realization that the end of the world is unavoidable."
+        ],
+        "answer_index": 2
+      }
+    ],
+    "9": [
+      {
+        "source_id": "616",
+        "pretext": "Sentence : Let's see if you whoop it up next monday when it's just another start to a shitty week.\nHint : To whoop it up means to celebrate, especially with cheers and whoops, but in this context the speaker is wondering if the person will keep calm instead",
+        "options": [
+          "Let's see if you keep calm and refrain from making any noise next Monday when it's just another start to a shitty week.",
+          "Let's see if you celebrate wildly and make a lot of noise next Monday when it's just another start to a shitty week."
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1133",
+        "pretext": "Sentence : Those galaxies were jellyfishes in the abyss of space.\nHint : Abyss is usually suggests an endless infinite space whereas a finite space means the exact opposite.",
+        "options": [
+          "Those galaxies were jellyfishes in the seemingly endless space.",
+          "Those galaxies were jellyfishes in such a small finite space."
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "999",
+        "pretext": "Sentence : The night sky flurried with the massive bombardment.\nHint : A flurry is a light, brief shower of something, while a dousing is a heavy or complete soaking.",
+        "options": [
+          "The night sky was filled with massive fireballs.",
+          "The entire night sky was doused with the multiple bombardments ."
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1554",
+        "pretext": "Sentence : He didn't make a sound as he walked, his movement like a falcon\nHint : A falcon is a bird of prey that moves swiftly and silently when hunting, so the person is moving quickly and quietly",
+        "options": [
+          "Even though he was moving quickly, he made no noise.",
+          "Even though he was moving slowly, he made no noise."
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1124",
+        "pretext": "Sentence : You can count on me to help you any time.\nHint : Count on me means someone can rely on you, which is not true is things got worse last time you helped someone.",
+        "options": [
+          "Last time I decided to help you, things just got worse.",
+          "You can count on me to help you any time I feel like."
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1065",
+        "pretext": "Sentence : Then my troubled heart is brightened ,\nHint : One statement states that the protagonist's troubled heart is brightened whereas the second statement says that is darkened.",
+        "options": [
+          "Then my troubled heart is darkened.",
+          "Then my troubled heart is made more cheerful ,"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "215",
+        "pretext": "Sentence : I get out of bed and go straight into the shower.\nHint : To go straight means to move forward in the direction one is facing, but in this sentence the person moves backward",
+        "options": [
+          "I get out of bed and move backward away from the shower.",
+          "I get out of bed and move forward in the direction I am facing into the shower."
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1210",
+        "pretext": "Sentence : An insect floated down like a damaged aircraft\nHint : A damaged aircraft would not be floating smoothly, it would be floating erratically",
+        "options": [
+          "An insect floated down smoothly",
+          "An insect floated down wobbling"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "120",
+        "pretext": "Sentence : The cut and thrust in the privateering sector.\nHint : The cut and thrust of an activity refers to the lively, competitive and sometimes aggressive way in which it is done, but in this sentence there is a lack of competition",
+        "options": [
+          "The active and aggressive competition in the privateering sector.",
+          "The lack of active and aggressive competition in the privateering sector."
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "306",
+        "pretext": "Sentence : I know that woman too well to ever want to lay a finger on her, okay?\nHint : To lay a finger on someone usually refers to harming them in some way, but not wanting to ever lay a finger this context contradicts ever wanting to be nice to someone.",
+        "options": [
+          "I know that woman too well to ever want to be nice to her again, okay?.",
+          "I know that woman too well to ever want to hurt her in any way, okay?"
+        ],
+        "answer_index": 2
+      }
+    ],
+    "10": [
+      {
+        "source_id": "247",
+        "pretext": "Premise: Jerry couldn't wake up.\nHypothesis: Jerry didn't need to wake up.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "1089",
+        "pretext": "Premise: Neither closets nor the gates fling open.\nHypothesis: Closets or the gates fling open.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "965",
+        "pretext": "Premise: The Lutherans and the actors don't both force Bruce to dislike the schools.\nHypothesis: The Lutherans and the actors do force Bruce to dislike the schools.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "511",
+        "pretext": "Premise: Martin did not go towards this school.\nHypothesis: Martin got to this school.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "1965",
+        "pretext": "Premise: Patients talk about all actresses.\nHypothesis: Patients don't talk about all actresses.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "1081",
+        "pretext": "Premise: Neither these mushrooms nor these restaurants have stunned Tina.\nHypothesis: These mushrooms and these restaurants haven't both stunned Tina.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "1059",
+        "pretext": "Premise: Drivers and these waitresses are shouting.\nHypothesis: Neither drivers nor these waitresses are shouting.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "1720",
+        "pretext": "Premise: Hills are fine.\nHypothesis: Hills are not fine.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "1036",
+        "pretext": "Premise: Neither the patients nor these guests learned who likes to leave.\nHypothesis: The patients and these guests didn't both learn who likes to leave.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "536",
+        "pretext": "Premise: That actor tried to break these forks.\nHypothesis: That actor managed to break these forks.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 3
+      }
+    ],
+    "11": [
+      {
+        "source_id": "667",
+        "pretext": "Premise: Allison's grocery store that is annoying Dana doesn't look like the picture.\nHypothesis: Allison doesn't have exactly one grocery store that is annoying Dana.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "1668",
+        "pretext": "Premise: If Amanda had left, it's okay.\nHypothesis: Amanda wasn't here.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "272",
+        "pretext": "Premise: Did the ten women that talk implore Pamela to bore Kenneth?\nHypothesis: There are exactly ten committees that talk.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1003",
+        "pretext": "Premise: Both museums that persuaded the Lutherans' tutor to forfeit did prefer Amelia to reveal Julie.\nHypothesis: There are exactly two banks that persuaded the Lutherans' tutor to forfeit",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "144",
+        "pretext": "Premise: Tina doesn't remember when Anne had bored Debra.\nHypothesis: Anne had bored Debra",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1523",
+        "pretext": "Premise: It is Winston Churchill who is ascertaining these sweaters to twist.\nHypothesis: Exactly one person is ascertaining these sweaters to twist.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "861",
+        "pretext": "Premise: Helen didn't only require the Impressionists' associates to come here.\nHypothesis: Helen only required the Impressionists' associates to come here.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "1597",
+        "pretext": "Premise: It is Craig who had appreciated Travis.\nHypothesis: Exactly one person had appreciated Deborah.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "168",
+        "pretext": "Premise: If teachers conceal when Amy has come here, it's okay.\nHypothesis: Amy has come here",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "178",
+        "pretext": "Premise: Irene might have forgotten about where Cindy declares many adults to succeed.\nHypothesis: Walter declares many adults to succeed.",
+        "options": [
+          "Hypothesis is definitely true given premise",
+          "Hypothesis might be true given premise",
+          "Hypothesis is definitely not true given premise"
+        ],
+        "answer_index": 2
+      }
+    ],
+    "12": [
+      {
+        "source_id": "245",
+        "pretext": "Conversation:\nA: Nice to meet you .\nAssumption: It's been a pleasure meeting you.\n",
+        "options": [
+          "Valid",
+          "Invalid"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "116",
+        "pretext": "Conversation:\nA: Have you had a chance to look over the contract ?\nB: Yes . I've read it carefully .\nA: And do you have any questions ?\nB: No . But the contract stipulates that I will teach 22 hours a week.Will you have thatmany classes for me right away ?\nA:  No , probably not . For the first two weeks you may teach 10 or 15 hours . \nB:  But my salary will be 1100 dollars a month.Will you pay me that much for the first month ? Because , I mean , I won't be working so many hours . \nA:  I understand . That's why I didn't write the date on the contract.For the first two weeks , we will pay you according to the hours you teach.When you have 22 hours of classes , then the contract will take effect.Is that alright with you ? \nB:  Oh , so I don't sign the contract today . Is that right ? \nA:  I don't want you to misunderstand , Miss Briggs.We are very serious about hiring you . We want you to teach for us.We usually do contracts this way because it is more convenient . \nB: I can accept that .\nAssumption: There was a prior statement made by the speaker.\n",
+        "options": [
+          "Valid",
+          "Invalid"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1000",
+        "pretext": "Conversation:\nA: Hello , I bought the pendant in your shop , just before . \nB: Yes.Thank you very much .\nA:  Now I come back to the hotel and try to show it to my friend , the pendant is broken , I'm afraid .\nAssumption: Friend has broken the pendant \n",
+        "options": [
+          "Valid",
+          "Invalid"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "2199",
+        "pretext": "Conversation:\nA: Good morning , Japan Airline domestic reservations . Can I help you ? \nB: Yes . I Would like make a reservation to Huston for tomorrow .\nA:  The flight to Huston takes off daily every two hours from 6:00 to 11:00 pm . So you don't need a reservation . Seats are available on a ' first come , first served ' basis .\nAssumption: The person has to start early to have the first seat at the window..\n",
+        "options": [
+          "Valid",
+          "Invalid"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1341",
+        "pretext": "Conversation:\nA: Hello ! How do I restock my minibar ?\nB:  You've drunk everything , sir ? \nA: I finished it all .\nB:  Do you want the whole minibar , or just certain items ? \nA: Send me up three bottles each of Perrier and Jim Beam .\nB:  That's three Jim Beams and three Perriers . Anything else , sir ? \nA:  The apples in my room were delicious . Bring me a few more , please . \nB: Okay . Are you sure there isn't anything else ?\nA:  You know , some grape juice would be really nice , too .\nAssumption: A insists on change of the order.\n",
+        "options": [
+          "Valid",
+          "Invalid"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "291",
+        "pretext": "Conversation:\nA: Good morning , sir . Here is the hotel's sauna room . What can I do for you ? \nB: Yes . This is the first time I've come here . Could you please tell me something about it ?\nA:  Sure Those who have heart disease or high blood pressure are not allowed to take sauna , for their sake . \nB: Thank you for telling me about this . What should I do here ?\nA:  First , change your shoes to slippers . Then walk up to the changing room to get prepared for a shower .\nAssumption: The listener need to undress.\n",
+        "options": [
+          "Valid",
+          "Invalid"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "2268",
+        "pretext": "Conversation:\nA: Ann , stop bugging Jess and help me order something new . Lattes are so passe these days .\nAssumption: The speaker fashion and food. The food is stale.The food is tasteless.\n",
+        "options": [
+          "Valid",
+          "Invalid"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "1737",
+        "pretext": "Conversation:\nA: Sir , I am very glad to tell that we have successfully registered the trademark for our new product . It is the time to think of some effective promoting strategies . We are beginning to get more attention from overseas . \nB:  Well done , Fred . Do you know something useful for our promotion for our I-series ? \nA:  OK , Let me see . I suppose we must strengthen our promotion , because our brand is still new to some consumers . Maybe we should start our advertising program with our local and overseas distributors simultaneously , because they stand on a better position for selecting the best ways to advertise in market places . Besides , the advertisement fund can encourage them to spend more attention on advertising our products . \nB: That is a good idea to start with . I also think the mass media is also a good approach for advertising .\nAssumption: B has plans to promote across the world.\n",
+        "options": [
+          "Valid",
+          "Invalid"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "268",
+        "pretext": "Conversation:\nA: It's such a nice day outside . Let ’ s take a walk into town and do some window-shopping .\nB: You know I hate shopping more than anything else in this world .\nA:  I know . But we could get some exercise in , and we could get some errands run , too . Window-shopping won ’ t cost you anything . \nB: What kind of errands do we need to run ?\nA:  Well , we could go to the newsagent's to pick up the Sunday paper , go to the butcher's to pick up a chicken for a roast dinner , and to the chemist's to pick up your prescription from the doctor . \nB: I'll only go if we can stop at the office-license to pick up something to drink for tonight .\nA:  Fine , we'll do that on the way home , so we don ’ t have to carry it the whole time . \nB:  Sounds good . You have to promise not go into any of the stores in the mall though . I know how you like to try things on in the fitting rooms , especially if the stores have special offers . \nA: I promise . We're only going for a walk to get some exercise and to get some things done that we haven ’ t had time for .\nB:  Ok , let's go then ! \nA: Do you have any money ?\nB: For what ?\nA:  For our errands , and maybe a little extra for something from a vendor on the street .\nAssumption: The speaker has multiple things to buy.\n",
+        "options": [
+          "Valid",
+          "Invalid"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "1423",
+        "pretext": "Conversation:\nA: do you have s second ?\nB: sure . What do you want ?\nA: I want to tell you I've put in my notice .\nB: really ? Why ?\nA:  I've been thinking about this for several months , well before the Spring Festival holidays .\nAssumption: A has got better opportunities; A was on a vacation trip.\n",
+        "options": [
+          "Valid",
+          "Invalid"
+        ],
+        "answer_index": 1
+      }
+    ],
+    "13": [
+      {
+        "source_id": "288",
+        "pretext": "Conversation:\nSpeaker_1: did Alexander go to the closet \nSpeaker_2: Alexander was in the closet if not in the closet\nSpeaker_1: did you go there\nSpeaker_2: I returned to the lounge\nSpeaker_1: where can I get the pears\nSpeaker_2: the pears are in the patio or the attic\nSpeaker_1: are some of the cherries in the closet\nSpeaker_2: four are there\nSpeaker_1: where are the onions\nSpeaker_2: there is a blue box in the lounge\nSpeaker_1: are all of them in the lounge\nSpeaker_2: yes\nSpeaker_1: where are the bananas\nSpeaker_2: the bananas are in the lounge or the patio\nSpeaker_1: where did James go\nSpeaker_2: he said he was in the patio\nSpeaker_1: how many broccolis are in the attic\nSpeaker_2: two or three\nSpeaker_1: where can I find the cabbage\nSpeaker_2: it is in the lounge or the attic\nQuestion: was the woman in the lounge?\n",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "489",
+        "pretext": "Conversation:\nSpeaker_1: did Ava go to the closet \nSpeaker_2: it is likely\nSpeaker_1: did you put the peaches there\nSpeaker_2: I put them in the front_yard\nSpeaker_1: how many carrots are in the cellar\nSpeaker_2: one or two\nSpeaker_1: where are the cherries\nSpeaker_2: there is a blue box in the closet\nSpeaker_1: how many cherries are there\nSpeaker_2: two or three\nSpeaker_1: where can I find the lettuces\nSpeaker_2: the lettuces are in the cellar\nSpeaker_1: did you put them in the cellar\nSpeaker_2: no, I didn't\nSpeaker_1: are some of them there\nSpeaker_2: Ava said she left five of the lettuces there\nSpeaker_1: where is the lemon\nSpeaker_2: there is a green bottle in the closet\nSpeaker_1: how about the eggplant\nSpeaker_2: the eggplant is in the lounge\nQuestion: are some of the lettuces in the cellar?\n",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "148",
+        "pretext": "Conversation:\nSpeaker_1: did you put the asparagus in the patio\nSpeaker_2: no\nSpeaker_1: where did you see them\nSpeaker_2: I have no idea\nSpeaker_1: did you go to the garage\nSpeaker_2: I returned to the garden\nSpeaker_1: did Mila place the broccolis there\nSpeaker_2: she placed the grapefruits there\nSpeaker_1: where are the pumpkins\nSpeaker_2: Mila said she put the pumpkins in the patio and travelled to the garden\nSpeaker_1: did Elizabeth go to the garage \nSpeaker_2: she travelled to the patio\nSpeaker_1: are some of the pumpkins there\nSpeaker_2: they are all there\nSpeaker_1: did you see the beans\nSpeaker_2: there is a red cupboard in the patio\nSpeaker_1: how about the onion\nSpeaker_2: it is in the cellar\nSpeaker_1: did you put it there\nSpeaker_2: I put it there and travelled to the garden\nQuestion: are the pumpkins in the garden?\n",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "432",
+        "pretext": "Conversation:\nSpeaker_1: did you go to the bedroom\nSpeaker_2: yes\nSpeaker_1: where can I get the celeries\nSpeaker_2: I put them in the garden and went to the bedroom\nSpeaker_1: did you see the apple\nSpeaker_2: it is in the garden or the bedroom\nSpeaker_1: did James go to the bedroom \nSpeaker_2: he was not there\nSpeaker_1: where was he\nSpeaker_2: he said he was in the front_yard\nSpeaker_1: how many cucumbers are in the front_yard\nSpeaker_2: there are at least one there\nSpeaker_1: how many beans are in the hall\nSpeaker_2: there are at least one there\nSpeaker_1: where can I find the asparagus\nSpeaker_2: I put them in the garden and went to the bedroom\nSpeaker_1: are some of them in the garden\nSpeaker_2: all of them are in the garden\nSpeaker_1: did you put the apple there\nSpeaker_2: no, I didn't\nQuestion: is the woman sure about how many are the cucumbers?\n",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "885",
+        "pretext": "Conversation:\nSpeaker_1: how many spinaches are in the laundry\nSpeaker_2: three\nSpeaker_1: where did you go\nSpeaker_2: I walked to the laundry and the study\nSpeaker_1: did Liam go there\nSpeaker_2: he walked to the staircase\nSpeaker_1: are all the carrots in the study\nSpeaker_2: I saw some carrots in the study\nSpeaker_1: did Liam leave them in the study\nSpeaker_2: he left them there and travelled to the staircase\nSpeaker_1: was Oliver there\nSpeaker_2: he was in the TV_room\nSpeaker_1: are all the strawberries there\nSpeaker_2: yes, all of them are there\nSpeaker_1: did Oliver put the asparagus there\nSpeaker_2: yes, he did\nSpeaker_1: where can I get the cucumber\nSpeaker_2: there is a red bucket in the staircase\nSpeaker_1: did you see the melons\nSpeaker_2: Liam said there is a red crate in the staircase\nQuestion: are the melons in the staircase?\n",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "295",
+        "pretext": "Conversation:\nSpeaker_1: did Sophia put the carrots in the staircase\nSpeaker_2: no\nSpeaker_1: what about Emma\nSpeaker_2: I didn't see her\nSpeaker_1: where were you\nSpeaker_2: I travelled to the garage\nSpeaker_1: where did you see Sophia\nSpeaker_2: she travelled to the lounge and the sunroom\nSpeaker_1: where are the carrots\nSpeaker_2: I don't know\nSpeaker_1: did Sophia place the asparagus in the garage\nSpeaker_2: she placed the pineapples there\nSpeaker_1: are all the turnips in the staircase\nSpeaker_2: some are in the staircase\nSpeaker_1: how many pineapples are in the garage\nSpeaker_2: five\nSpeaker_1: did Emma leave the limes there\nSpeaker_2: she left them in the sunroom if not the garage\nSpeaker_1: how many radishes are in the lounge\nSpeaker_2: there are two\nQuestion: are the asparagus in the garage?\n",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "439",
+        "pretext": "Conversation:\nSpeaker_1: where did Jack go\nSpeaker_2: he journeyed to the bathroom and the workshop\nSpeaker_1: are some of the peaches in the bathroom\nSpeaker_2: two are in the bathroom\nSpeaker_1: are some of the grapefruits in the workshop\nSpeaker_2: Jack said he saw all the grapefruits were in the workshop\nSpeaker_1: did you place them in the workshop\nSpeaker_2: I placed them there and journeyed to the kitchen\nSpeaker_1: did you place the peaches in the kitchen\nSpeaker_2: I placed them in the bathroom\nSpeaker_1: did Liam leave the pears there\nSpeaker_2: he said he was in the den\nSpeaker_1: did you put them there\nSpeaker_2: I put them in the den\nSpeaker_1: are all of them in the den\nSpeaker_2: Liam said he saw some pears in the den\nSpeaker_1: did you see the turnips\nSpeaker_2: Noah said there is a blue basket in the kitchen\nSpeaker_1: did you leave them there\nSpeaker_2: yes\nQuestion: are all the grapefruits in the workshop?\n",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "254",
+        "pretext": "Conversation:\nSpeaker_1: where was Liam\nSpeaker_2: I know he didn't went to the living_room\nSpeaker_1: where was he\nSpeaker_2: he said he went to the pantry\nSpeaker_1: did he put the eggplants in the living_room\nSpeaker_2: he put them in the pantry if not the living_room\nSpeaker_1: where did you go\nSpeaker_2: I journeyed to the sunroom and the playroom\nSpeaker_1: how can I find Carter\nSpeaker_2: he walked to the living_room\nSpeaker_1: where can I find the grapefruits\nSpeaker_2: they are in the sunroom\nSpeaker_1: are some of them in the sunroom\nSpeaker_2: four are in the sunroom\nSpeaker_1: did Carter place the grapefruits there\nSpeaker_2: no\nSpeaker_1: where can I get the corns\nSpeaker_2: there is a blue container in the living_room\nSpeaker_1: did you put them there\nSpeaker_2: I put them there and walked to the playroom\nQuestion: are all the grapefruits in the living_room?\n",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "210",
+        "pretext": "Conversation:\nSpeaker_1: did you see the plum\nSpeaker_2: the plum is in the front_yard or the master_bedroom\nSpeaker_1: what about the persimmons\nSpeaker_2: they are in the front_yard or the bathroom\nSpeaker_1: are all the pineapples in the front_yard\nSpeaker_2: some are in the front_yard\nSpeaker_1: how can I find Abigail\nSpeaker_2: I know she didn't went to the front_yard\nSpeaker_1: where did you go\nSpeaker_2: I travelled to the bathroom and the master_bedroom\nSpeaker_1: did Abigail leave the peaches there\nSpeaker_2: she left them in the bathroom if not the master_bedroom\nSpeaker_1: did Hannah place the lettuce there\nSpeaker_2: I didn't see her\nSpeaker_1: are some of the beans there\nSpeaker_2: I put all of them there\nSpeaker_1: are all the potatoes in the pantry\nSpeaker_2: I'm not sure\nSpeaker_1: did Hannah leave them in the pantry\nSpeaker_2: yes\nQuestion: was the woman in the master_bedroom?\n",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "768",
+        "pretext": "Conversation:\nSpeaker_1: where are the plums\nSpeaker_2: Jacob said he put the plums in the patio and travelled to the den\nSpeaker_1: are some of them in the patio\nSpeaker_2: four are there\nSpeaker_1: where can I find the eggplants\nSpeaker_2: there is a red container in the basement\nSpeaker_1: did Jacob put them there\nSpeaker_2: no, he didn't\nSpeaker_1: where are the corns\nSpeaker_2: I left them in the basement and travelled to the den\nSpeaker_1: are all of them in the basement\nSpeaker_2: yes\nSpeaker_1: where can I get the grapefruits\nSpeaker_2: I'm not sure\nSpeaker_1: did you see the bananas\nSpeaker_2: they are in the office\nSpeaker_1: how many are in the office\nSpeaker_2: there are at least two there\nSpeaker_1: did Jacob put them there\nSpeaker_2: yes\nQuestion: is the woman sure about who put the bananas the office?\n",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    ],
+    "14": [
+      {
+        "source_id": "153",
+        "pretext": "Context: The classroom was filled with eager minds\nQuestion: what does \"classroom\" refer to?\n",
+        "options": [
+          "room",
+          "faculty",
+          "Laptop",
+          "srudents"
+        ],
+        "answer_index": 4
+      },
+      {
+        "source_id": "78",
+        "pretext": "Context: She said,\"Tell your man to watch his mouth.\"\nQuestion: What does \"mouth\" mean:?\n",
+        "options": [
+          "Way of speaking",
+          "Taste for food",
+          "A location",
+          "None"
+        ],
+        "answer_index": 1
+      },
+      {
+        "source_id": "166",
+        "pretext": "Context: \"Please put your thumb on red and fingers on the blue. \"\nQuestion: What does \"red\" refer to :?\n",
+        "options": [
+          "Dust",
+          "Red spot",
+          "Dirt",
+          "Flower"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "82",
+        "pretext": "Context: The village all declared how much he knew - Gold Smith\nQuestion: What does \" the village\" refer to?\n",
+        "options": [
+          "the place",
+          "villlage",
+          "country",
+          "villagers/people"
+        ],
+        "answer_index": 4
+      },
+      {
+        "source_id": "295",
+        "pretext": "Context: Keep your nose out of  it \nQuestion: What does \" nose\" refer to ?\n",
+        "options": [
+          "intrusion",
+          "interest ",
+          "attention ",
+          "all of the above "
+        ],
+        "answer_index": 4
+      },
+      {
+        "source_id": "9",
+        "pretext": "Context: The kettle is boiling\nQuestion: what does \"the kettle\" refer  to?\n",
+        "options": [
+          "container",
+          "device",
+          "lid",
+          "water"
+        ],
+        "answer_index": 4
+      },
+      {
+        "source_id": "0",
+        "pretext": "Context: She is attracted to blue jacket \nQuestion: What does\" blue jacket\" refer to?\n",
+        "options": [
+          "Colour",
+          "Jacket",
+          "Sailor ",
+          "Sea "
+        ],
+        "answer_index": 3
+      },
+      {
+        "source_id": "211",
+        "pretext": "Context: He rode on an ostrich wing's \nQuestion: What does \" ostrich wings\" refer to ?\n",
+        "options": [
+          "The intensity ",
+          "The speed ",
+          "The stamina ",
+          "The power "
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "415",
+        "pretext": "Context: She's always chasing the taste of victory.\nQuestion: What does \"taste of victory\" mean:?\n",
+        "options": [
+          "The literal taste of winning",
+          "A satisfaction and triumph associated with winning",
+          "A type of victory celebration",
+          "A type of competition"
+        ],
+        "answer_index": 2
+      },
+      {
+        "source_id": "184",
+        "pretext": "Context: The press praised the actor's outstanding performance.\nQuestion: What does \"press\" mean:?\n",
+        "options": [
+          "The media and journalists",
+          "A book publishing company",
+          "A type of camera",
+          "A printing machine"
+        ],
+        "answer_index": 1
+      }
+    ]
+  }
+}

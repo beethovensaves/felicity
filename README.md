@@ -90,5 +90,11 @@ restraint, voice preservation, technical senses, and formulaic writing. The [pub
 contains three manually graded Codex runs. It does not establish overall quality or Claude Code
 behavior. Package validation checks structure and checksums, not writing quality.
 
+A separate [public benchmark sample](evals/public-benchmarks/2026-09-29-codex/REPORT.md) compares
+Felicity with the same Codex model without the skills on 30 EditEval edits and 140 PUB questions.
+It reports the complete prompts and answers, task scores, and cases where the benchmark labels
+or reference edits limit interpretation. The observed differences were small; this is an
+exploratory comparison, not a full benchmark score.
+
 The skills and build scripts are in this repository. [Host notes](HOST-NOTES.md) explain discovery
 paths and optional rules. Felicity is released under the [MIT License](LICENSE).

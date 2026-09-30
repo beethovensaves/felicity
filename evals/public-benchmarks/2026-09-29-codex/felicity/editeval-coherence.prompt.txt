@@ -1,0 +1,23 @@
+Use $felicity-write. Read .agents/skills/felicity-write/SKILL.md, .agents/skills/felicity-write/references/writing-standard.md, and .agents/skills/felicity-write/references/anti-slop.md before editing.
+
+Apply the instruction independently to each numbered text. Return one revised sentence per item, in the same order, in the required JSON answers array. Instruction: Make the text more cohesive
+
+Item 1: 2008 The 27th Young Designers' Exhibition, famed as the largest show from students' creations, recognized by International Council of Societies of Industrial Design (ICSID) since last year, started at Taipei World Trade Center yesterday and will close at Sunday (May 18) with participations from 87 academical units in Taiwan and 20 units from United States, United Kingdom, Italy, Netherlands, New Zealand, and Australia to showcase varied achievements from designindustry.
+
+Item 2: Based on the general linguistic structure of humor, in this paper, we propose a novel approach for detecting humor in short texts by using BERT sentence embedding.
+
+Item 3: In this paper, we present Generation-Augmented Retrieval (GAR), a query expansion method that augments a query with relevant contexts through text generation .
+
+Item 4: Mister Philippines 2011 & Mister International 2011 Lopez  declared as one of the winner of Mister Philippines 2011, After he won the competition on December 17, 2011, Lopez joined the compete in the Mister International 2011 pageant which is happening in Pattaya, Thailand and Bangkok.
+
+Item 5: In addition, Taiwan Design Center, the show organizer, also designed several site events like "On-line Graduate Season Show"," Carrer Match-up","Creative and Cultural Showcase and Performance","Seminars of YODEX 2008" to link the actual exhibition with  on-line exhibition.
+
+Item 6: As the world's ocean is the principal component of Earth's hydrosphere, it is integral to life on Earth, forms part of the carbon cycle and water cycle, and - as a huge heat reservoir - influences climate and weather patterns.
+
+Item 7: In this paper, we present CANINE, a neural encoder that operates directly on character sequences--without explicit tokenization or vocabulary--and a pre-training strategy with soft inductive biases in place of hard token boundaries.
+
+Item 8: Each comment was annotated by three different annotators, which achieved high inter-annotator agreement.
+
+Item 9: a day after he resigned his position as Attorney-General, after publicity around his filing of an incorrect declaration, with the Companies Office on behalf of Queens Park Mews Limited.
+
+Item 10: The pelagic zone consists of the water column of the open ocean, and can be divided into further regions categorized by light abundance and by depth.

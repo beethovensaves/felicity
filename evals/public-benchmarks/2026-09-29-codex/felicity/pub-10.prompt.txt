@@ -1,0 +1,81 @@
+Use $felicity-review. Read .agents/skills/felicity-review/SKILL.md and .agents/skills/felicity-review/references/review-standard.md before answering. Examine what each utterance conveys in context. For each numbered item, choose the best option. Return only the 1-based option number for each item, in order, in the required JSON answers array. Answer the questions; do not report review findings.
+
+Item 1:
+Premise: Jerry couldn't wake up.
+Hypothesis: Jerry didn't need to wake up.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 2:
+Premise: Neither closets nor the gates fling open.
+Hypothesis: Closets or the gates fling open.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 3:
+Premise: The Lutherans and the actors don't both force Bruce to dislike the schools.
+Hypothesis: The Lutherans and the actors do force Bruce to dislike the schools.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 4:
+Premise: Martin did not go towards this school.
+Hypothesis: Martin got to this school.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 5:
+Premise: Patients talk about all actresses.
+Hypothesis: Patients don't talk about all actresses.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 6:
+Premise: Neither these mushrooms nor these restaurants have stunned Tina.
+Hypothesis: These mushrooms and these restaurants haven't both stunned Tina.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 7:
+Premise: Drivers and these waitresses are shouting.
+Hypothesis: Neither drivers nor these waitresses are shouting.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 8:
+Premise: Hills are fine.
+Hypothesis: Hills are not fine.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 9:
+Premise: Neither the patients nor these guests learned who likes to leave.
+Hypothesis: The patients and these guests didn't both learn who likes to leave.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise
+
+Item 10:
+Premise: That actor tried to break these forks.
+Hypothesis: That actor managed to break these forks.
+Options:
+1. Hypothesis is definitely true given premise
+2. Hypothesis might be true given premise
+3. Hypothesis is definitely not true given premise

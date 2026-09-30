@@ -1,0 +1,23 @@
+{
+  "benchmark": "pub",
+  "task": "6",
+  "mode": "baseline",
+  "status": "captured",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "skill_read": false,
+  "skill_read_paths": [],
+  "disabled_global_felicity": [
+    "felicity-review",
+    "felicity-write"
+  ],
+  "usage": {
+    "input_tokens": 14782,
+    "cached_input_tokens": 12288,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33,
+    "reasoning_output_tokens": 0
+  },
+  "error": "",
+  "timestamp_utc": "2026-09-30T03:46:52.284972+00:00"
+}

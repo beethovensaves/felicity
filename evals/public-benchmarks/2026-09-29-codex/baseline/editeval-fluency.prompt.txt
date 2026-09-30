@@ -1,0 +1,21 @@
+Apply the instruction independently to each numbered text. Return one revised sentence per item, in the same order, in the required JSON answers array. Instruction: Fix grammar errors
+
+Item 1: The cause of the fire was yet to be ascertained.
+
+Item 2: In all cases, our approach matches the efficiency of existing algorithms and, in several cases, reducesthe runtime complexity by a factor (or two) of the sentence length.
+
+Item 3: To study a better metric for genQA, we collect high-quality human judgments of correctness on two standard genQA datasets.
+
+Item 4: a binary classification (offensive versus non-offensive language), the level of offense (highly offensive, moderately offensive  and slightly offensive messages), and the identification regarding the target of the discriminatory content (xenophobia, racism, homophobia, sexism, religion intolerance, partyism, apology to the dictatorship, antisemitism  and fat phobia).
+
+Item 5: Born in Aluva, in the south Indian state of Kerala  to Thenumgal Poulose and Mariam in a Malayali family, he did his under-graduate studies at UC College before graduating in medicine from Stanley Medical College, Chennai  and secured his MS degree from the same institution.
+
+Item 6: Eighteen people were seriously injured and admitted to  National Medical College and Hospital.
+
+Item 7: Paderap has four sons, namely Tuanku Jalaluddin (or Kejuruan Metar), Tuanku Panglima Pasutan (or Kejuruan Padang), Tuanku Tawar (or Kejuruan Santun), and Tuanku Umar (or Kejuruan Junjongan).
+
+Item 8: However, in recent years it has been shown that these models possess weakness to noises which forces the model to misclassify.
+
+Item 9: He started his practice under government service at Madras Medical College where he helped establish the department of vascular surgery in 1978 and served as its founder head till his superannuation in 1993.
+
+Item 10: the three shareholders had unanimously agreed not to appoint an auditor for the company, but according to Investigate Magazine, another shareholder  Russell Hyslop, had never been consulted about the matter.

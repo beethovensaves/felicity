@@ -1,0 +1,71 @@
+Examine what each utterance conveys in context. For each numbered item, choose the best option. Return only the 1-based option number for each item, in order, in the required JSON answers array. Answer the questions; do not report review findings.
+
+Item 1:
+Sentence : Let's see if you whoop it up next monday when it's just another start to a shitty week.
+Hint : To whoop it up means to celebrate, especially with cheers and whoops, but in this context the speaker is wondering if the person will keep calm instead
+Options:
+1. Let's see if you keep calm and refrain from making any noise next Monday when it's just another start to a shitty week.
+2. Let's see if you celebrate wildly and make a lot of noise next Monday when it's just another start to a shitty week.
+
+Item 2:
+Sentence : Those galaxies were jellyfishes in the abyss of space.
+Hint : Abyss is usually suggests an endless infinite space whereas a finite space means the exact opposite.
+Options:
+1. Those galaxies were jellyfishes in the seemingly endless space.
+2. Those galaxies were jellyfishes in such a small finite space.
+
+Item 3:
+Sentence : The night sky flurried with the massive bombardment.
+Hint : A flurry is a light, brief shower of something, while a dousing is a heavy or complete soaking.
+Options:
+1. The night sky was filled with massive fireballs.
+2. The entire night sky was doused with the multiple bombardments .
+
+Item 4:
+Sentence : He didn't make a sound as he walked, his movement like a falcon
+Hint : A falcon is a bird of prey that moves swiftly and silently when hunting, so the person is moving quickly and quietly
+Options:
+1. Even though he was moving quickly, he made no noise.
+2. Even though he was moving slowly, he made no noise.
+
+Item 5:
+Sentence : You can count on me to help you any time.
+Hint : Count on me means someone can rely on you, which is not true is things got worse last time you helped someone.
+Options:
+1. Last time I decided to help you, things just got worse.
+2. You can count on me to help you any time I feel like.
+
+Item 6:
+Sentence : Then my troubled heart is brightened ,
+Hint : One statement states that the protagonist's troubled heart is brightened whereas the second statement says that is darkened.
+Options:
+1. Then my troubled heart is darkened.
+2. Then my troubled heart is made more cheerful ,
+
+Item 7:
+Sentence : I get out of bed and go straight into the shower.
+Hint : To go straight means to move forward in the direction one is facing, but in this sentence the person moves backward
+Options:
+1. I get out of bed and move backward away from the shower.
+2. I get out of bed and move forward in the direction I am facing into the shower.
+
+Item 8:
+Sentence : An insect floated down like a damaged aircraft
+Hint : A damaged aircraft would not be floating smoothly, it would be floating erratically
+Options:
+1. An insect floated down smoothly
+2. An insect floated down wobbling
+
+Item 9:
+Sentence : The cut and thrust in the privateering sector.
+Hint : The cut and thrust of an activity refers to the lively, competitive and sometimes aggressive way in which it is done, but in this sentence there is a lack of competition
+Options:
+1. The active and aggressive competition in the privateering sector.
+2. The lack of active and aggressive competition in the privateering sector.
+
+Item 10:
+Sentence : I know that woman too well to ever want to lay a finger on her, okay?
+Hint : To lay a finger on someone usually refers to harming them in some way, but not wanting to ever lay a finger this context contradicts ever wanting to be nice to someone.
+Options:
+1. I know that woman too well to ever want to be nice to her again, okay?.
+2. I know that woman too well to ever want to hurt her in any way, okay?

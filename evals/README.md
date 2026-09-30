@@ -5,6 +5,11 @@ claims, shared context, request force, ordinary review restraint, voice preserva
 word senses, and formulaic writing. Review cases must keep Felicity's normal consequential finding
 threshold. Most cases invoke a skill explicitly; routing cases omit the skill name.
 
+For a larger external comparison, see the [paired EditEval and PUB sample](public-benchmarks/2026-09-29-codex/REPORT.md)
+and its [runner](../scripts/run_public_benchmarks.py). It includes 170 source items, paired no-skill
+answers, exact prompts, and task scores. It tests different behavior from these Felicity-specific
+cases and does not replace review-restraint or voice-preservation checks.
+
 See [selected observed runs](RESULTS.md) for complete final answers and manual grades from a small
 Codex sample. The case catalog is larger than the published sample.
 

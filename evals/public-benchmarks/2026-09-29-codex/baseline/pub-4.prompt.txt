@@ -1,0 +1,183 @@
+Examine what each utterance conveys in context. For each numbered item, choose the best option. Return only the 1-based option number for each item, in order, in the required JSON answers array. Answer the questions; do not report review findings.
+
+Item 1:
+Speaker_1: were you in the hall
+Speaker_2: I journeyed to the staircase
+Speaker_1: where can I get the strawberries
+Speaker_2: they are in the playroom
+Speaker_1: are some of them in the playroom
+Speaker_2: three are there
+Speaker_1: where can I get the corns
+Speaker_2: they are in the bathroom
+Speaker_1: did Nathan place the corns there
+Speaker_2: he placed them there and travelled to the hall
+Speaker_1: where can I get the grapefruits
+Speaker_2: Nathan left the grapefruits in the playroom and travelled to the staircase
+Speaker_1: are some of them in the playroom
+Speaker_2: yes, some of them are there
+Speaker_1: did you see the lemons
+Speaker_2: the lemons are in the bathroom or the hall
+Options:
+1. I am not sure where the lemons are
+2. I was in the bathroom
+3. I was in the hall
+4. the lemons are in the playroom
+
+Item 2:
+Speaker_1: did Avery leave the radishes in the patio
+Speaker_2: I didn't see her
+Speaker_1: where did you go
+Speaker_2: I was in the patio
+Speaker_1: where can I get the broccoli
+Speaker_2: it is in the attic or the den
+Speaker_1: what about the turnips
+Speaker_2: they are in the den
+Options:
+1. the turnips are not in the den
+2. the turnips are in the den
+3. I am not sure where the turnips are
+4. I don't know where the turnips are
+
+Item 3:
+Speaker_1: are all the bananas in the garage
+Speaker_2: some are there
+Speaker_1: where were you
+Speaker_2: I walked to the garage and the crawlspace
+Speaker_1: how can I find Evelyn
+Speaker_2: she said she walked to the hallway
+Speaker_1: where can I get the plum
+Speaker_2: the plum is in the crawlspace
+Speaker_1: where are the tomatoes
+Speaker_2: they are in the back_yard
+Speaker_1: how about the potatoes
+Speaker_2: they are in the garage or the back_yard
+Options:
+1. I was in the back_yard
+2. I was not in the garage
+3. I am not sure where the potatoes are
+4. the potatoes are not in the back_yard
+
+Item 4:
+Speaker_1: where did Liam go
+Speaker_2: he said he was in the living_room
+Speaker_1: did you go to the front_yard
+Speaker_2: I returned to the laundry
+Speaker_1: did Owen leave the celeries there
+Speaker_2: he left the strawberries there
+Speaker_1: are some of the cabbages there
+Speaker_2: two are in the laundry
+Speaker_1: where can I get the pineapples
+Speaker_2: they are in the living_room or the laundry
+Speaker_1: did you place them in the front_yard
+Speaker_2: I placed them in the living_room
+Options:
+1. I didn't place the pineapples in the living_room
+2. I place the pineapples in the front_yard
+3. I didn't place the pineapples in the front_yard
+4. the pineapples are in the laundry
+
+Item 5:
+Speaker_1: did William put the oranges in the dining_room
+Speaker_2: I didn't see him
+Speaker_1: did he leave the cherries in the closet
+Speaker_2: he left them in the staircase if not the closet
+Speaker_1: did you go there
+Speaker_2: I travelled to the dining_room
+Speaker_1: was Emma in the staircase
+Speaker_2: yes
+Speaker_1: where can I find the grapefruits
+Speaker_2: they are in the attic
+Speaker_1: did you place them there
+Speaker_2: no
+Speaker_1: are all of them in the attic
+Speaker_2: some are in the attic
+Speaker_1: are some of the peas in the dining_room
+Speaker_2: yes, some of them are there
+Options:
+1. all of the grapefruits are in the dining_room
+2. I am not sure how many peas are in the dining_room
+3. I am not sure if some of the peas are in the dining_room
+4. some of the peas are in the dining_room
+
+Item 6:
+Speaker_1: did you see the persimmons
+Speaker_2: there is a blue box in the master_bedroom
+Speaker_1: are all of them in the master_bedroom
+Speaker_2: yes
+Speaker_1: did you place them in the master_bedroom
+Speaker_2: no
+Speaker_1: are some of the carrots in the workshop
+Speaker_2: they are all there
+Options:
+1. all of the carrots are in the master_bedroom
+2. all the carrots are in the workshop
+3. some of the carrots are in the workshop
+4. three of the carrots are in the workshop
+
+Item 7:
+Speaker_1: did you see the asparagus
+Speaker_2: they are in the sunroom
+Speaker_1: what about the cherries
+Speaker_2: I left the cherries in the pantry and walked to the garden
+Speaker_1: how about the lemons
+Speaker_2: Evelyn said there is a red bathtub in the sunroom
+Speaker_1: did Emma put the lemons there
+Speaker_2: no, she didn't
+Speaker_1: are some of them in the sunroom
+Speaker_2: five are there
+Speaker_1: where is the banana
+Speaker_2: it is in the garden or the basement
+Speaker_1: did you put it in the sunroom
+Speaker_2: I put the asparagus there
+Options:
+1. I put the asparagus in the sunroom
+2. I didn't put the banana in the sunroom
+3. I put the banana in the sunroom
+4. I didn't put the asparagus in the sunroom
+
+Item 8:
+Speaker_1: did you put the eggplants in the front_yard
+Speaker_2: no, I didn't
+Speaker_1: did Isla place them there
+Speaker_2: she placed them there and travelled to the attic
+Speaker_1: where can I get the celeries
+Speaker_2: they are in the attic
+Speaker_1: how many
+Speaker_2: three
+Speaker_1: where can I find the carrots
+Speaker_2: Alexander said there is a green bottle in the office
+Options:
+1. the carrots are in the office
+2. the carrots are not in the office
+3. the carrots are in the green bottle
+4. I don't know where the carrots are
+
+Item 9:
+Speaker_1: did Avery place the strawberries in the sunroom
+Speaker_2: she didn't travel there
+Speaker_1: where was Jayden
+Speaker_2: he said he walked to the master_bedroom
+Speaker_1: did Avery place the sweet potato in the kitchen
+Speaker_2: she placed it in the kitchen if not the bedroom
+Speaker_1: did Jayden place the pineapples there
+Speaker_2: he placed them in the kitchen or the bedroom
+Speaker_1: were you there
+Speaker_2: I was in the kitchen and put the beans
+Speaker_1: did you see the eggplants
+Speaker_2: there is a blue envelope in the bedroom
+Options:
+1. the eggplants are in the kitchen
+2. I am not sure where the eggplants are
+3. the eggplants are in the bedroom
+4. I don't know where the eggplants are
+
+Item 10:
+Speaker_1: where is the sweet potato
+Speaker_2: the sweet potato is in the pantry
+Speaker_1: did you leave the sweet potato there
+Speaker_2: I left it there and travelled to the basement
+Options:
+1. I didn't leave the sweet potato in the pantry
+2. the sweet potato is in the sunroom
+3. I left the sweet potato in the pantry and then travelled to the basement
+4. the sweet potato is in the pantry

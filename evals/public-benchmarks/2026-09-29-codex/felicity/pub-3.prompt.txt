@@ -1,0 +1,121 @@
+Use $felicity-review. Read .agents/skills/felicity-review/SKILL.md and .agents/skills/felicity-review/references/review-standard.md before answering. Examine what each utterance conveys in context. For each numbered item, choose the best option. Return only the 1-based option number for each item, in order, in the required JSON answers array. Answer the questions; do not report review findings.
+
+Item 1:
+Context: Y has just travelled from a different city to meet X.
+X: Would you like to go out tonight?
+Y: If I can find something to wear.
+Implied meaning: He would like to go out tonight with a special wear.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 2:
+Context: Y has just told X that he/she is considering switching his/her job.
+X: Will you work on the weekends?
+Y: Depends if it's required.
+Implied meaning: If it's required, he works on the weekends.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 3:
+Context: X wants to know what sorts of books Y likes to read.
+X: Do you read non-fiction books?
+Y: I read biographies and science books.
+Implied meaning: He reads biographies and science books. So it seems he doesn't prefer non fiction books.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 4:
+Context: Y has just told X that he/she is thinking of buying a flat in New York.
+X: Do you have a practical reason for purchasing a flat in New York?
+Y: I have always wanted to live there
+Implied meaning: He purchased a flat in New York because living in New York was a dream for him.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 5:
+Context: X and Y are childhood neighbours who unexpectedly run into each other at a cafe.
+X: Are you still as fun as you were when we were young?
+Y: I enjoy life more now than I did when we were younger.
+Implied meaning: He is still as fun as he was young because he finds life more enjoyable.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 6:
+Context: X wants to know what sorts of books Y likes to read.
+X: Do you like salmon?
+Y: Smoked salmon makes a good starter
+Implied meaning: I like smoked salmon as a good starter.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 7:
+Context: Y has just told X that he/she is thinking of buying a flat in New York.
+X: Are you offering the asking price?
+Y: I asked for a move-in discount.
+Implied meaning: She is negotiating the asking price of buying a flat in New York.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 8:
+Context: X and Y are colleagues who are leaving work on a Friday at the same time.
+X: Are you going to the gym?
+Y: I went yesterday.
+Implied meaning: He is going to the gym.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 9:
+Context: X and Y are colleagues who are leaving work on a Friday at the same time.
+X: Did you have a busy day?
+Y: Far too busy for my liking, unfortunately.
+Implied meaning: He was exhausted because of extreemly busy schedule.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other
+
+Item 10:
+Context: X and Y are colleagues who are leaving work on a Friday at the same time.
+X: Do you want to get together tomorrow?
+Y: If I don't have to take my kids to soccer practice.
+Implied meaning: His primary preference is his kid's soccer practice and after that he can think about get together.
+Options:
+1. Yes
+2. No
+3. Yes, subject to some conditions
+4. In the middle, neither yes nor no
+5. Other

@@ -1,0 +1,271 @@
+Use $felicity-review. Read .agents/skills/felicity-review/SKILL.md and .agents/skills/felicity-review/references/review-standard.md before answering. Examine what each utterance conveys in context. For each numbered item, choose the best option. Return only the 1-based option number for each item, in order, in the required JSON answers array. Answer the questions; do not report review findings.
+
+Item 1:
+Conversation:
+Speaker_1: did Alexander go to the closet 
+Speaker_2: Alexander was in the closet if not in the closet
+Speaker_1: did you go there
+Speaker_2: I returned to the lounge
+Speaker_1: where can I get the pears
+Speaker_2: the pears are in the patio or the attic
+Speaker_1: are some of the cherries in the closet
+Speaker_2: four are there
+Speaker_1: where are the onions
+Speaker_2: there is a blue box in the lounge
+Speaker_1: are all of them in the lounge
+Speaker_2: yes
+Speaker_1: where are the bananas
+Speaker_2: the bananas are in the lounge or the patio
+Speaker_1: where did James go
+Speaker_2: he said he was in the patio
+Speaker_1: how many broccolis are in the attic
+Speaker_2: two or three
+Speaker_1: where can I find the cabbage
+Speaker_2: it is in the lounge or the attic
+Question: was the woman in the lounge?
+Options:
+1. yes
+2. no
+
+Item 2:
+Conversation:
+Speaker_1: did Ava go to the closet 
+Speaker_2: it is likely
+Speaker_1: did you put the peaches there
+Speaker_2: I put them in the front_yard
+Speaker_1: how many carrots are in the cellar
+Speaker_2: one or two
+Speaker_1: where are the cherries
+Speaker_2: there is a blue box in the closet
+Speaker_1: how many cherries are there
+Speaker_2: two or three
+Speaker_1: where can I find the lettuces
+Speaker_2: the lettuces are in the cellar
+Speaker_1: did you put them in the cellar
+Speaker_2: no, I didn't
+Speaker_1: are some of them there
+Speaker_2: Ava said she left five of the lettuces there
+Speaker_1: where is the lemon
+Speaker_2: there is a green bottle in the closet
+Speaker_1: how about the eggplant
+Speaker_2: the eggplant is in the lounge
+Question: are some of the lettuces in the cellar?
+Options:
+1. yes
+2. no
+
+Item 3:
+Conversation:
+Speaker_1: did you put the asparagus in the patio
+Speaker_2: no
+Speaker_1: where did you see them
+Speaker_2: I have no idea
+Speaker_1: did you go to the garage
+Speaker_2: I returned to the garden
+Speaker_1: did Mila place the broccolis there
+Speaker_2: she placed the grapefruits there
+Speaker_1: where are the pumpkins
+Speaker_2: Mila said she put the pumpkins in the patio and travelled to the garden
+Speaker_1: did Elizabeth go to the garage 
+Speaker_2: she travelled to the patio
+Speaker_1: are some of the pumpkins there
+Speaker_2: they are all there
+Speaker_1: did you see the beans
+Speaker_2: there is a red cupboard in the patio
+Speaker_1: how about the onion
+Speaker_2: it is in the cellar
+Speaker_1: did you put it there
+Speaker_2: I put it there and travelled to the garden
+Question: are the pumpkins in the garden?
+Options:
+1. yes
+2. no
+
+Item 4:
+Conversation:
+Speaker_1: did you go to the bedroom
+Speaker_2: yes
+Speaker_1: where can I get the celeries
+Speaker_2: I put them in the garden and went to the bedroom
+Speaker_1: did you see the apple
+Speaker_2: it is in the garden or the bedroom
+Speaker_1: did James go to the bedroom 
+Speaker_2: he was not there
+Speaker_1: where was he
+Speaker_2: he said he was in the front_yard
+Speaker_1: how many cucumbers are in the front_yard
+Speaker_2: there are at least one there
+Speaker_1: how many beans are in the hall
+Speaker_2: there are at least one there
+Speaker_1: where can I find the asparagus
+Speaker_2: I put them in the garden and went to the bedroom
+Speaker_1: are some of them in the garden
+Speaker_2: all of them are in the garden
+Speaker_1: did you put the apple there
+Speaker_2: no, I didn't
+Question: is the woman sure about how many are the cucumbers?
+Options:
+1. yes
+2. no
+
+Item 5:
+Conversation:
+Speaker_1: how many spinaches are in the laundry
+Speaker_2: three
+Speaker_1: where did you go
+Speaker_2: I walked to the laundry and the study
+Speaker_1: did Liam go there
+Speaker_2: he walked to the staircase
+Speaker_1: are all the carrots in the study
+Speaker_2: I saw some carrots in the study
+Speaker_1: did Liam leave them in the study
+Speaker_2: he left them there and travelled to the staircase
+Speaker_1: was Oliver there
+Speaker_2: he was in the TV_room
+Speaker_1: are all the strawberries there
+Speaker_2: yes, all of them are there
+Speaker_1: did Oliver put the asparagus there
+Speaker_2: yes, he did
+Speaker_1: where can I get the cucumber
+Speaker_2: there is a red bucket in the staircase
+Speaker_1: did you see the melons
+Speaker_2: Liam said there is a red crate in the staircase
+Question: are the melons in the staircase?
+Options:
+1. yes
+2. no
+
+Item 6:
+Conversation:
+Speaker_1: did Sophia put the carrots in the staircase
+Speaker_2: no
+Speaker_1: what about Emma
+Speaker_2: I didn't see her
+Speaker_1: where were you
+Speaker_2: I travelled to the garage
+Speaker_1: where did you see Sophia
+Speaker_2: she travelled to the lounge and the sunroom
+Speaker_1: where are the carrots
+Speaker_2: I don't know
+Speaker_1: did Sophia place the asparagus in the garage
+Speaker_2: she placed the pineapples there
+Speaker_1: are all the turnips in the staircase
+Speaker_2: some are in the staircase
+Speaker_1: how many pineapples are in the garage
+Speaker_2: five
+Speaker_1: did Emma leave the limes there
+Speaker_2: she left them in the sunroom if not the garage
+Speaker_1: how many radishes are in the lounge
+Speaker_2: there are two
+Question: are the asparagus in the garage?
+Options:
+1. yes
+2. no
+
+Item 7:
+Conversation:
+Speaker_1: where did Jack go
+Speaker_2: he journeyed to the bathroom and the workshop
+Speaker_1: are some of the peaches in the bathroom
+Speaker_2: two are in the bathroom
+Speaker_1: are some of the grapefruits in the workshop
+Speaker_2: Jack said he saw all the grapefruits were in the workshop
+Speaker_1: did you place them in the workshop
+Speaker_2: I placed them there and journeyed to the kitchen
+Speaker_1: did you place the peaches in the kitchen
+Speaker_2: I placed them in the bathroom
+Speaker_1: did Liam leave the pears there
+Speaker_2: he said he was in the den
+Speaker_1: did you put them there
+Speaker_2: I put them in the den
+Speaker_1: are all of them in the den
+Speaker_2: Liam said he saw some pears in the den
+Speaker_1: did you see the turnips
+Speaker_2: Noah said there is a blue basket in the kitchen
+Speaker_1: did you leave them there
+Speaker_2: yes
+Question: are all the grapefruits in the workshop?
+Options:
+1. yes
+2. no
+
+Item 8:
+Conversation:
+Speaker_1: where was Liam
+Speaker_2: I know he didn't went to the living_room
+Speaker_1: where was he
+Speaker_2: he said he went to the pantry
+Speaker_1: did he put the eggplants in the living_room
+Speaker_2: he put them in the pantry if not the living_room
+Speaker_1: where did you go
+Speaker_2: I journeyed to the sunroom and the playroom
+Speaker_1: how can I find Carter
+Speaker_2: he walked to the living_room
+Speaker_1: where can I find the grapefruits
+Speaker_2: they are in the sunroom
+Speaker_1: are some of them in the sunroom
+Speaker_2: four are in the sunroom
+Speaker_1: did Carter place the grapefruits there
+Speaker_2: no
+Speaker_1: where can I get the corns
+Speaker_2: there is a blue container in the living_room
+Speaker_1: did you put them there
+Speaker_2: I put them there and walked to the playroom
+Question: are all the grapefruits in the living_room?
+Options:
+1. yes
+2. no
+
+Item 9:
+Conversation:
+Speaker_1: did you see the plum
+Speaker_2: the plum is in the front_yard or the master_bedroom
+Speaker_1: what about the persimmons
+Speaker_2: they are in the front_yard or the bathroom
+Speaker_1: are all the pineapples in the front_yard
+Speaker_2: some are in the front_yard
+Speaker_1: how can I find Abigail
+Speaker_2: I know she didn't went to the front_yard
+Speaker_1: where did you go
+Speaker_2: I travelled to the bathroom and the master_bedroom
+Speaker_1: did Abigail leave the peaches there
+Speaker_2: she left them in the bathroom if not the master_bedroom
+Speaker_1: did Hannah place the lettuce there
+Speaker_2: I didn't see her
+Speaker_1: are some of the beans there
+Speaker_2: I put all of them there
+Speaker_1: are all the potatoes in the pantry
+Speaker_2: I'm not sure
+Speaker_1: did Hannah leave them in the pantry
+Speaker_2: yes
+Question: was the woman in the master_bedroom?
+Options:
+1. yes
+2. no
+
+Item 10:
+Conversation:
+Speaker_1: where are the plums
+Speaker_2: Jacob said he put the plums in the patio and travelled to the den
+Speaker_1: are some of them in the patio
+Speaker_2: four are there
+Speaker_1: where can I find the eggplants
+Speaker_2: there is a red container in the basement
+Speaker_1: did Jacob put them there
+Speaker_2: no, he didn't
+Speaker_1: where are the corns
+Speaker_2: I left them in the basement and travelled to the den
+Speaker_1: are all of them in the basement
+Speaker_2: yes
+Speaker_1: where can I get the grapefruits
+Speaker_2: I'm not sure
+Speaker_1: did you see the bananas
+Speaker_2: they are in the office
+Speaker_1: how many are in the office
+Speaker_2: there are at least two there
+Speaker_1: did Jacob put them there
+Speaker_2: yes
+Question: is the woman sure about who put the bananas the office?
+Options:
+1. yes
+2. no
